@@ -1,0 +1,1001 @@
+participant_id,age,gender,occupation,phq1_interest,phq2_depressed,phq3_sleep,phq4_energy,phq5_appetite,phq6_failure,phq7_concentration,phq8_movement,phq9_suicidal,phq9_total,risk_label,avg_daily_screen_time_hours,late_night_usage_hours,sleep_duration_hours,sleep_regularity,physical_activity_level,social_media_usage_hours,entertainment_usage_hours,social_interaction_frequency,phone_usage_affects_mood
+P0001,24,Other,Student,3,0,2,2,3,0,0,2,1,13,Moderate,6.72,2.46,5.77,Very Regular,High,2.12,1.58,Moderate,Yes
+P0002,39,Male,Student,0,3,0,0,2,2,2,1,3,13,Moderate,4.91,0.92,4.94,Very Regular,High,4.12,1.92,Very Low,Not Sure
+P0003,36,Female,Student,3,2,3,3,0,2,0,2,2,17,High,5.8,2.61,6.44,Very Regular,Low,2.21,1.33,Low,Yes
+P0004,25,Other,Unemployed,2,2,1,0,3,1,3,3,1,16,High,6.36,0.7,5.85,Very Regular,High,2.34,2.37,Low,Not Sure
+P0005,35,Other,Unemployed,1,3,1,1,1,3,1,2,3,16,High,7.72,0.33,6.76,Very Irregular,Low,2.83,2.77,High,Not Sure
+P0006,32,Female,Student,0,3,1,0,3,3,3,0,0,13,Moderate,7.29,0.98,5.84,Somewhat Regular,High,2.61,1.87,High,No
+P0007,18,Female,Student,3,3,3,2,2,2,0,3,2,20,High,7.71,3.04,6.21,Somewhat Regular,Moderate,3.6,1.6,Very Low,Yes
+P0008,22,Female,Student,2,3,3,1,2,2,0,2,0,15,High,6.33,1.0,7.03,Irregular,Moderate,2.14,2.58,Moderate,Yes
+P0009,30,Other,Employed,2,2,3,2,0,3,0,3,3,18,High,6.47,2.19,7.58,Very Regular,Moderate,2.38,1.59,Very Low,Not Sure
+P0010,19,Female,Unemployed,1,0,1,0,0,1,3,3,3,12,Moderate,5.45,2.7,6.58,Irregular,High,2.29,2.77,Low,Not Sure
+P0011,18,Male,Student,0,0,2,1,0,3,0,0,2,8,Moderate,5.81,1.21,5.18,Somewhat Regular,Moderate,1.98,1.56,Very Low,Yes
+P0012,32,Male,Employed,2,1,3,3,3,0,3,0,1,16,High,5.4,1.79,4.53,Irregular,Moderate,1.73,1.31,Moderate,Yes
+P0013,34,Female,Employed,2,0,1,1,3,1,2,0,3,13,Moderate,6.01,1.89,6.32,Somewhat Regular,High,1.48,3.29,Moderate,Not Sure
+P0014,34,Other,Unemployed,2,1,3,0,3,1,1,1,2,14,Moderate,7.53,2.11,6.84,Very Regular,High,2.73,1.0,Low,Not Sure
+P0015,33,Other,Student,0,2,3,3,2,3,2,1,2,18,High,6.0,2.78,6.53,Somewhat Regular,Moderate,0.43,2.88,High,No
+P0016,35,Other,Unemployed,2,2,1,1,2,2,3,3,1,17,High,8.09,1.86,6.53,Somewhat Regular,High,2.91,2.85,Moderate,Yes
+P0017,26,Male,Student,0,2,2,3,3,2,3,3,1,19,High,7.83,2.92,6.28,Irregular,Moderate,3.8,2.62,Moderate,Yes
+P0018,39,Male,Unemployed,2,3,0,0,3,0,3,0,1,12,Moderate,4.37,2.53,5.58,Irregular,Low,3.56,2.51,High,No
+P0019,34,Other,Employed,3,0,3,3,2,2,1,2,1,17,High,8.02,1.66,7.36,Somewhat Regular,Moderate,3.39,5.08,Low,Yes
+P0020,18,Other,Unemployed,0,3,0,3,2,3,2,3,0,16,High,6.74,0.37,5.96,Irregular,High,3.13,2.81,High,Not Sure
+P0021,22,Female,Employed,3,0,0,1,0,2,2,3,0,11,Moderate,5.77,1.17,5.84,Somewhat Regular,Low,1.74,-0.27,High,Yes
+P0022,27,Male,Student,2,1,1,2,3,1,3,1,3,17,High,6.3,0.93,7.54,Somewhat Regular,High,1.99,1.32,Low,Not Sure
+P0023,34,Female,Unemployed,3,0,0,2,1,3,2,0,1,12,Moderate,6.97,2.01,6.92,Very Regular,Moderate,6.45,2.67,High,Not Sure
+P0024,31,Female,Unemployed,3,1,3,2,2,2,3,1,1,18,High,8.5,3.41,5.42,Irregular,High,1.99,1.94,Very Low,Not Sure
+P0025,39,Other,Student,1,1,1,0,3,1,1,2,1,11,Moderate,3.11,1.89,5.91,Irregular,High,3.33,2.0,Moderate,Yes
+P0026,23,Female,Employed,0,3,3,1,2,2,2,3,3,19,High,7.68,0.9,4.06,Somewhat Regular,Moderate,2.09,3.29,Very Low,Not Sure
+P0027,38,Other,Employed,1,2,2,0,3,0,0,1,1,10,Moderate,5.29,0.98,8.27,Somewhat Regular,High,2.9,0.74,Very Low,Not Sure
+P0028,33,Female,Unemployed,0,2,3,2,0,1,0,2,2,12,Moderate,7.58,1.02,5.12,Somewhat Regular,Low,2.36,3.97,Moderate,Yes
+P0029,33,Other,Unemployed,0,2,3,0,1,1,0,2,1,10,Moderate,8.31,2.56,6.37,Very Regular,High,2.03,2.06,Moderate,No
+P0030,18,Male,Student,3,0,0,3,3,3,3,2,1,18,High,10.32,1.96,5.71,Irregular,Moderate,3.01,3.06,Low,Yes
+P0031,35,Male,Unemployed,2,3,0,0,0,2,2,0,3,12,Moderate,6.86,1.51,5.91,Very Regular,Low,2.81,2.98,High,Yes
+P0032,19,Other,Student,2,0,2,3,1,0,1,0,2,11,Moderate,5.4,1.84,7.03,Somewhat Regular,High,1.92,2.93,High,Not Sure
+P0033,27,Male,Employed,0,0,3,3,2,0,2,3,3,16,High,8.52,1.33,6.75,Very Irregular,Low,2.6,2.08,Low,Not Sure
+P0034,30,Female,Employed,2,0,2,0,1,0,0,1,3,9,Moderate,7.55,1.03,7.5,Irregular,Moderate,2.21,2.8,High,Yes
+P0035,29,Male,Student,0,0,2,3,0,2,3,1,2,13,Moderate,6.45,2.13,5.53,Very Regular,Moderate,4.74,1.14,Very Low,Not Sure
+P0036,38,Other,Student,3,0,2,3,0,2,0,0,1,11,Moderate,4.28,3.0,6.85,Somewhat Regular,Low,2.64,2.13,Very Low,Not Sure
+P0037,23,Other,Student,2,1,0,3,1,0,1,2,1,11,Moderate,6.17,0.61,6.9,Somewhat Regular,Low,1.09,2.34,Very Low,No
+P0038,30,Male,Unemployed,3,3,1,3,2,2,0,3,1,18,High,6.52,1.08,6.93,Somewhat Regular,Moderate,2.18,0.52,High,Yes
+P0039,30,Other,Student,0,1,3,1,1,3,3,3,0,15,High,7.33,2.34,5.15,Very Irregular,Low,3.51,1.7,High,No
+P0040,18,Male,Student,1,0,1,1,3,0,3,0,0,9,Moderate,2.21,1.24,6.45,Very Regular,High,3.29,0.88,High,No
+P0041,35,Female,Employed,2,0,0,1,2,2,0,0,1,8,Moderate,7.11,1.55,8.79,Very Irregular,High,1.59,1.06,Very Low,Not Sure
+P0042,25,Other,Unemployed,1,3,1,3,3,0,0,3,3,17,High,5.8,1.45,6.1,Very Regular,Low,2.2,0.75,High,Not Sure
+P0043,30,Female,Student,3,3,0,0,1,2,0,1,1,11,Moderate,8.63,0.17,6.59,Somewhat Regular,Low,3.59,1.74,Low,Not Sure
+P0044,39,Female,Student,0,1,3,2,0,2,0,1,2,11,Moderate,4.35,2.47,6.07,Very Irregular,Low,1.86,2.16,Moderate,No
+P0045,26,Male,Student,2,2,0,0,3,2,1,3,0,13,Moderate,8.76,1.83,6.52,Very Irregular,High,3.46,3.07,Very Low,Yes
+P0046,36,Other,Unemployed,0,0,1,0,1,0,2,0,0,4,Low,6.62,1.47,6.54,Very Regular,Low,-1.28,1.43,Low,Yes
+P0047,20,Female,Employed,2,1,3,0,1,3,0,1,1,12,Moderate,6.82,2.67,3.79,Very Irregular,Low,1.94,2.69,High,Yes
+P0048,28,Male,Employed,2,2,1,3,3,1,1,1,1,15,High,8.32,2.41,8.3,Very Regular,Moderate,3.0,1.8,Moderate,No
+P0049,23,Female,Employed,0,3,2,3,1,2,1,2,0,14,Moderate,6.38,2.34,6.02,Very Irregular,Low,1.04,2.19,Low,No
+P0050,30,Male,Student,1,2,2,3,2,2,2,0,2,16,High,7.2,2.09,5.26,Very Regular,High,2.29,1.24,Moderate,Yes
+P0051,20,Male,Unemployed,3,2,2,0,3,1,0,1,2,14,Moderate,5.18,1.25,4.87,Very Irregular,High,2.51,2.26,Low,Yes
+P0052,30,Other,Student,2,0,1,0,2,0,1,2,3,11,Moderate,2.68,1.46,6.23,Somewhat Regular,Low,3.16,2.81,Very Low,Not Sure
+P0053,37,Male,Employed,2,2,2,3,1,1,1,3,2,17,High,9.37,2.05,6.55,Very Regular,High,2.07,2.82,Low,Not Sure
+P0054,30,Other,Student,1,1,1,2,2,2,3,0,2,14,Moderate,7.38,1.55,6.25,Very Regular,Moderate,1.64,1.55,Moderate,No
+P0055,29,Male,Unemployed,0,0,0,3,0,3,1,2,0,9,Moderate,4.59,1.45,8.92,Irregular,Low,3.46,1.51,Moderate,No
+P0056,36,Male,Unemployed,1,0,0,1,3,1,3,1,2,12,Moderate,8.57,0.48,6.96,Irregular,Moderate,1.95,1.61,Moderate,Yes
+P0057,28,Male,Employed,1,1,1,2,3,2,0,2,2,14,Moderate,2.65,2.25,6.69,Very Regular,Low,2.62,2.44,Low,Not Sure
+P0058,34,Female,Student,1,3,1,2,1,0,1,2,2,13,Moderate,6.71,0.31,6.89,Irregular,Low,1.99,2.72,Low,No
+P0059,39,Female,Student,3,2,3,0,3,0,3,2,0,16,High,4.31,2.44,5.06,Very Irregular,High,3.07,5.08,Moderate,Not Sure
+P0060,18,Other,Unemployed,1,1,3,1,0,2,1,3,1,13,Moderate,3.88,2.46,5.77,Very Regular,High,3.49,1.02,Moderate,Not Sure
+P0061,34,Male,Student,0,2,2,3,1,2,2,1,2,15,High,6.75,1.82,6.74,Irregular,Low,4.33,2.13,Very Low,Not Sure
+P0062,26,Other,Student,0,1,3,1,2,0,0,0,2,9,Moderate,6.07,1.68,8.63,Irregular,Moderate,3.32,1.62,Low,Not Sure
+P0063,35,Female,Student,3,3,2,3,1,3,2,0,1,18,High,3.31,3.11,4.24,Irregular,High,3.9,3.09,High,No
+P0064,38,Male,Student,3,3,2,2,2,1,1,2,2,18,High,3.29,2.63,7.19,Very Irregular,Moderate,4.61,2.37,Very Low,Yes
+P0065,21,Female,Student,0,1,0,0,0,0,2,2,0,5,Moderate,5.61,0.87,7.23,Irregular,Low,2.58,2.79,High,Not Sure
+P0066,32,Other,Employed,3,0,3,3,3,2,0,3,0,17,High,5.93,-0.21,5.76,Very Regular,Low,4.18,4.35,Very Low,Not Sure
+P0067,28,Male,Unemployed,2,0,3,2,1,1,3,1,1,14,Moderate,5.06,-0.16,6.48,Very Regular,Moderate,5.34,2.0,Low,No
+P0068,28,Male,Student,3,3,3,3,3,0,3,0,3,21,High,7.17,3.01,6.62,Irregular,Moderate,2.42,2.37,Very Low,No
+P0069,36,Male,Unemployed,0,1,3,0,1,2,2,0,1,10,Moderate,5.06,1.1,6.92,Somewhat Regular,High,2.11,0.77,Very Low,No
+P0070,36,Other,Employed,3,2,0,2,0,0,0,1,3,11,Moderate,4.45,1.93,7.77,Somewhat Regular,Low,2.34,1.1,Low,Yes
+P0071,28,Female,Student,1,1,2,1,2,1,2,0,3,13,Moderate,5.91,0.45,6.1,Somewhat Regular,High,2.38,-0.55,Moderate,No
+P0072,18,Other,Unemployed,0,0,2,2,1,1,3,1,0,10,Moderate,5.92,1.86,6.51,Somewhat Regular,Moderate,4.78,0.37,Low,Not Sure
+P0073,39,Male,Employed,3,2,0,3,0,2,0,3,0,13,Moderate,4.26,0.12,5.78,Very Regular,Moderate,3.78,4.41,Low,Yes
+P0074,33,Female,Employed,3,2,1,0,1,2,2,1,1,13,Moderate,5.44,0.42,9.15,Irregular,Low,4.24,2.13,Low,Yes
+P0075,21,Other,Student,0,3,0,2,2,2,3,1,1,14,Moderate,6.5,2.46,7.52,Very Irregular,Moderate,0.53,1.43,Moderate,Yes
+P0076,25,Female,Employed,1,0,2,0,2,2,0,3,2,12,Moderate,5.26,2.29,7.02,Very Irregular,High,2.61,2.16,Moderate,Yes
+P0077,31,Male,Employed,2,3,3,3,0,1,0,1,2,15,High,5.59,1.54,7.61,Somewhat Regular,High,3.52,2.58,Moderate,Yes
+P0078,35,Male,Unemployed,1,0,2,0,3,2,1,2,1,12,Moderate,7.51,1.34,6.3,Very Irregular,Moderate,2.12,3.12,Moderate,No
+P0079,26,Other,Unemployed,1,0,3,2,3,1,1,3,3,17,High,6.95,1.07,6.13,Very Regular,Moderate,3.18,2.29,Low,No
+P0080,34,Male,Unemployed,1,0,3,1,0,0,2,0,1,8,Moderate,3.79,0.6,8.45,Very Irregular,Low,3.5,3.05,Low,No
+P0081,23,Female,Student,1,3,0,1,3,0,1,1,0,10,Moderate,5.9,-0.56,5.94,Irregular,High,2.81,1.58,Moderate,Not Sure
+P0082,23,Male,Unemployed,2,3,1,3,0,0,0,2,1,12,Moderate,5.23,1.47,7.21,Irregular,High,2.98,-0.27,Moderate,Not Sure
+P0083,19,Female,Employed,3,1,2,0,2,0,3,2,1,14,Moderate,7.64,1.6,7.05,Very Irregular,High,4.2,2.07,Moderate,Not Sure
+P0084,39,Male,Student,1,0,3,0,1,3,2,3,2,15,High,7.33,1.29,6.37,Very Irregular,High,5.31,2.15,High,Not Sure
+P0085,19,Other,Student,0,1,1,0,0,0,3,0,0,5,Moderate,8.46,1.21,5.19,Irregular,Moderate,1.85,2.25,Very Low,No
+P0086,29,Female,Student,2,1,1,1,3,2,0,3,2,15,High,7.3,1.69,6.87,Very Irregular,High,2.93,0.91,Moderate,No
+P0087,36,Female,Employed,3,2,0,0,2,0,1,3,1,12,Moderate,8.23,2.42,6.54,Somewhat Regular,High,2.22,2.2,High,Not Sure
+P0088,34,Male,Unemployed,2,1,0,1,1,2,1,2,0,10,Moderate,5.2,0.84,7.12,Very Regular,Moderate,2.3,1.04,Moderate,Yes
+P0089,35,Male,Unemployed,2,1,3,2,2,1,2,1,2,16,High,6.74,1.43,5.77,Irregular,Low,2.49,2.52,Low,Yes
+P0090,25,Male,Student,1,2,2,3,2,2,3,0,3,18,High,6.08,1.38,7.14,Somewhat Regular,Moderate,3.77,2.68,Very Low,No
+P0091,27,Female,Unemployed,3,1,1,2,2,1,1,1,2,14,Moderate,6.52,2.55,5.78,Somewhat Regular,High,4.11,4.5,High,No
+P0092,29,Female,Student,2,0,1,1,0,2,2,3,0,11,Moderate,5.56,0.06,6.15,Somewhat Regular,High,3.0,2.79,Very Low,Yes
+P0093,22,Female,Student,0,3,0,0,1,2,0,2,0,8,Moderate,4.37,1.18,7.16,Somewhat Regular,High,0.87,2.73,High,Yes
+P0094,19,Other,Student,0,2,3,3,2,3,3,0,2,18,High,7.11,2.39,5.6,Very Regular,Moderate,2.48,2.3,Low,No
+P0095,20,Other,Unemployed,3,1,0,0,1,2,2,0,0,9,Moderate,5.34,0.51,7.35,Irregular,Moderate,3.5,2.29,High,Not Sure
+P0096,23,Female,Student,0,3,0,2,0,0,3,1,0,9,Moderate,5.34,0.96,6.16,Very Irregular,Moderate,2.74,2.28,Moderate,Yes
+P0097,25,Other,Employed,0,0,2,2,1,3,3,2,1,14,Moderate,7.73,0.94,5.46,Very Irregular,High,2.69,2.89,Low,No
+P0098,22,Female,Student,0,0,1,3,0,3,1,0,2,10,Moderate,4.41,1.11,7.54,Irregular,Low,3.18,3.85,Moderate,No
+P0099,30,Female,Unemployed,0,1,3,2,3,3,3,0,2,17,High,7.31,2.42,6.65,Very Regular,Low,3.71,3.36,Low,Yes
+P0100,23,Female,Unemployed,3,2,0,2,0,1,0,2,2,12,Moderate,8.5,1.47,6.55,Somewhat Regular,High,3.81,1.28,Low,Yes
+P0101,35,Female,Employed,3,1,1,0,0,3,2,1,3,14,Moderate,6.03,1.22,5.31,Irregular,High,2.85,1.98,High,No
+P0102,36,Male,Student,1,2,1,0,3,1,2,3,3,16,High,6.88,2.25,5.5,Very Irregular,Moderate,2.24,2.79,Very Low,Not Sure
+P0103,21,Female,Employed,1,3,2,3,0,3,1,0,1,14,Moderate,5.36,1.67,8.32,Very Regular,Moderate,1.96,0.49,Moderate,No
+P0104,28,Female,Unemployed,0,1,2,2,3,2,2,1,2,15,High,8.57,0.39,5.84,Somewhat Regular,Moderate,1.52,2.07,Low,No
+P0105,28,Female,Employed,3,3,1,2,1,3,1,2,2,18,High,4.03,1.45,7.26,Very Regular,Moderate,1.97,1.62,Moderate,Not Sure
+P0106,34,Other,Employed,0,3,3,1,2,3,3,2,3,20,High,7.96,1.66,5.52,Somewhat Regular,Moderate,4.63,0.02,Low,Not Sure
+P0107,24,Other,Student,2,0,3,3,0,3,3,1,2,17,High,6.46,0.78,4.72,Very Irregular,High,3.46,0.86,Very Low,Yes
+P0108,39,Other,Employed,1,0,0,1,3,3,2,3,0,13,Moderate,6.77,1.55,5.17,Somewhat Regular,Moderate,1.71,3.77,Low,Yes
+P0109,32,Female,Employed,2,1,3,2,0,0,0,3,1,12,Moderate,6.59,1.98,5.78,Irregular,Low,3.04,2.26,High,No
+P0110,32,Female,Employed,3,1,1,3,3,0,1,3,3,18,High,5.43,2.72,6.19,Irregular,Moderate,1.51,1.29,Moderate,Yes
+P0111,23,Female,Student,2,1,1,1,1,2,1,1,2,12,Moderate,6.73,1.71,8.1,Very Regular,Moderate,3.98,0.57,Low,Not Sure
+P0112,29,Male,Unemployed,3,3,1,3,1,3,1,2,2,19,High,8.19,3.64,5.84,Very Regular,Low,5.11,3.62,Low,Yes
+P0113,39,Male,Unemployed,1,2,2,2,0,3,1,1,2,14,Moderate,7.38,2.95,6.0,Somewhat Regular,Low,4.86,0.64,Low,No
+P0114,31,Other,Student,3,0,3,0,2,0,2,3,2,15,High,8.08,0.7,7.45,Somewhat Regular,Moderate,2.26,5.34,Moderate,No
+P0115,27,Male,Unemployed,2,2,0,0,1,2,2,0,2,11,Moderate,7.74,1.46,7.38,Very Regular,Low,3.42,0.19,Moderate,Yes
+P0116,29,Other,Student,1,3,3,3,1,0,2,3,0,16,High,5.25,3.15,5.74,Irregular,High,3.88,2.26,High,No
+P0117,19,Other,Student,3,1,2,1,2,2,1,1,0,13,Moderate,7.1,0.65,7.73,Very Regular,High,3.43,2.55,Low,Yes
+P0118,33,Other,Employed,1,2,1,3,1,1,1,2,0,12,Moderate,5.17,1.58,7.57,Very Regular,High,3.14,1.73,Very Low,No
+P0119,32,Other,Employed,1,3,2,0,3,1,2,1,0,13,Moderate,6.86,1.58,7.16,Irregular,Low,1.4,3.26,Moderate,Yes
+P0120,21,Female,Employed,0,2,2,2,2,1,2,1,1,13,Moderate,5.24,1.18,4.4,Very Regular,Moderate,1.76,2.57,Moderate,Not Sure
+P0121,22,Female,Unemployed,3,3,2,3,0,0,3,1,3,18,High,8.91,0.62,6.6,Somewhat Regular,Moderate,0.75,3.11,Low,Not Sure
+P0122,32,Other,Unemployed,2,1,3,2,0,3,1,1,1,14,Moderate,7.86,1.44,5.85,Irregular,High,2.85,1.72,High,No
+P0123,20,Female,Unemployed,1,0,0,2,0,0,0,2,1,6,Moderate,4.28,2.59,8.67,Irregular,Moderate,2.09,1.87,Low,Yes
+P0124,32,Female,Employed,2,1,2,3,1,3,2,3,1,18,High,7.4,2.79,5.06,Somewhat Regular,Moderate,3.51,1.35,High,No
+P0125,35,Male,Employed,0,0,2,3,0,3,1,0,2,11,Moderate,6.92,0.82,6.42,Irregular,Low,4.55,3.01,High,Yes
+P0126,25,Female,Employed,0,3,2,3,0,1,3,0,0,12,Moderate,6.66,2.11,5.26,Irregular,Moderate,4.23,0.95,Moderate,Not Sure
+P0127,19,Male,Unemployed,1,3,1,2,0,0,0,0,3,10,Moderate,5.5,1.66,5.9,Somewhat Regular,Low,2.17,3.22,Low,Not Sure
+P0128,21,Female,Employed,1,2,1,1,1,0,0,2,2,10,Moderate,7.04,1.24,7.45,Somewhat Regular,High,3.48,0.67,High,Not Sure
+P0129,38,Other,Employed,2,0,3,1,2,2,0,2,3,15,High,9.82,2.64,4.1,Very Irregular,Low,4.52,2.29,Very Low,No
+P0130,25,Male,Employed,1,1,1,1,1,0,2,0,1,8,Moderate,5.45,0.1,6.77,Somewhat Regular,Moderate,-0.02,1.37,Moderate,No
+P0131,23,Other,Unemployed,1,1,3,2,2,0,0,2,2,13,Moderate,5.92,1.96,6.16,Irregular,Moderate,3.2,2.12,Moderate,No
+P0132,33,Other,Employed,0,3,1,2,0,2,3,2,3,16,High,5.17,2.53,4.63,Irregular,Moderate,1.81,3.24,Moderate,Yes
+P0133,21,Male,Unemployed,1,0,1,2,2,2,3,1,2,14,Moderate,9.17,1.88,6.46,Somewhat Regular,Moderate,1.76,3.6,Very Low,Not Sure
+P0134,18,Other,Unemployed,3,3,0,1,2,2,0,2,1,14,Moderate,6.29,1.74,6.34,Somewhat Regular,Low,2.0,1.54,Low,Not Sure
+P0135,27,Female,Employed,3,1,0,0,1,3,3,3,0,14,Moderate,7.52,1.14,7.1,Irregular,Low,2.14,4.02,Low,No
+P0136,35,Male,Employed,2,3,1,0,2,1,0,2,0,11,Moderate,4.86,2.06,6.86,Somewhat Regular,Moderate,2.36,1.92,Very Low,Not Sure
+P0137,33,Other,Student,0,2,2,3,2,3,2,1,0,15,High,8.69,0.4,6.56,Irregular,Low,2.75,2.66,Very Low,Not Sure
+P0138,20,Female,Unemployed,1,1,0,2,0,0,2,2,3,11,Moderate,4.94,2.01,8.08,Somewhat Regular,High,2.17,1.85,High,Yes
+P0139,25,Male,Unemployed,0,0,3,2,0,3,0,2,1,11,Moderate,5.22,1.39,5.69,Irregular,Moderate,2.58,1.43,High,No
+P0140,38,Female,Student,3,1,3,1,2,1,3,0,1,15,High,7.55,2.73,5.04,Very Regular,Moderate,4.42,2.67,High,Yes
+P0141,37,Male,Employed,3,1,3,1,3,0,0,0,2,13,Moderate,5.29,2.07,4.79,Very Irregular,Low,0.83,-0.19,Very Low,Yes
+P0142,36,Male,Unemployed,3,1,0,3,3,3,3,0,0,16,High,5.85,1.28,6.47,Irregular,Low,3.61,1.61,Low,Yes
+P0143,18,Other,Employed,0,3,3,1,3,1,0,1,3,15,High,4.89,1.04,5.55,Somewhat Regular,High,2.51,2.34,High,No
+P0144,28,Female,Employed,2,3,1,2,1,3,1,2,1,16,High,7.66,1.8,7.04,Very Irregular,Moderate,2.88,2.2,Very Low,Not Sure
+P0145,20,Other,Student,1,3,1,1,1,1,2,3,2,15,High,5.74,1.56,5.06,Somewhat Regular,High,2.4,1.21,Low,No
+P0146,37,Other,Student,1,3,1,0,1,0,0,1,0,7,Moderate,7.67,1.33,7.47,Somewhat Regular,Low,3.74,2.41,Low,Not Sure
+P0147,37,Male,Student,2,2,0,1,0,0,0,1,3,9,Moderate,7.33,-1.26,6.44,Very Regular,Moderate,2.38,1.54,High,Not Sure
+P0148,30,Other,Employed,2,1,3,1,0,3,2,1,3,16,High,7.05,2.23,4.92,Irregular,Low,1.83,2.72,Low,No
+P0149,36,Other,Employed,0,2,1,1,0,1,1,2,1,9,Moderate,6.12,1.18,5.94,Very Irregular,Low,2.15,1.56,Low,No
+P0150,21,Other,Unemployed,3,2,3,0,0,2,3,3,0,16,High,6.86,2.2,8.49,Somewhat Regular,Moderate,1.76,2.09,Very Low,Not Sure
+P0151,37,Male,Unemployed,2,1,3,0,2,2,2,3,1,16,High,7.41,2.41,5.62,Somewhat Regular,Moderate,0.21,1.75,Low,Yes
+P0152,24,Male,Student,0,0,0,0,1,1,0,0,0,2,Low,5.79,0.3,6.87,Irregular,High,0.14,3.66,Moderate,No
+P0153,37,Male,Employed,3,2,0,1,1,3,1,3,3,17,High,6.44,3.22,4.78,Irregular,High,1.24,3.82,High,No
+P0154,30,Other,Unemployed,0,0,3,0,3,0,0,0,1,7,Moderate,5.39,0.07,6.24,Very Irregular,Moderate,2.26,2.77,Very Low,Not Sure
+P0155,28,Male,Employed,2,1,3,2,1,3,0,2,0,14,Moderate,6.45,1.1,6.76,Irregular,High,2.02,4.21,Moderate,Yes
+P0156,30,Male,Student,3,0,2,2,0,0,2,3,2,14,Moderate,6.6,1.06,7.6,Very Regular,High,1.72,0.87,Moderate,Not Sure
+P0157,32,Male,Student,2,2,2,3,2,2,1,0,0,14,Moderate,8.18,2.28,7.3,Very Irregular,High,1.94,0.78,High,No
+P0158,35,Male,Unemployed,2,0,3,1,3,1,0,0,0,10,Moderate,8.25,1.03,6.54,Very Irregular,High,3.96,3.8,High,Yes
+P0159,33,Female,Employed,3,3,3,1,2,1,2,0,3,18,High,5.56,2.06,6.96,Very Irregular,Moderate,0.77,1.29,Moderate,Not Sure
+P0160,37,Male,Student,1,3,0,3,3,2,1,0,3,16,High,6.05,2.4,5.84,Irregular,Moderate,3.1,0.64,High,No
+P0161,38,Other,Employed,0,1,0,1,3,1,3,1,2,12,Moderate,7.89,0.96,6.69,Very Regular,Moderate,0.88,1.56,Very Low,No
+P0162,38,Female,Employed,2,3,2,1,2,2,2,2,3,19,High,7.37,1.17,4.28,Very Regular,Moderate,3.75,3.3,Very Low,Not Sure
+P0163,20,Other,Employed,2,1,2,2,0,1,2,3,2,15,High,6.23,2.56,6.46,Very Irregular,Low,1.54,2.85,Low,Not Sure
+P0164,20,Female,Unemployed,0,3,3,2,3,3,1,1,2,18,High,7.95,2.78,5.24,Very Irregular,High,3.33,3.59,High,Yes
+P0165,19,Male,Employed,0,3,0,0,3,3,1,1,1,12,Moderate,6.67,1.86,7.17,Somewhat Regular,Moderate,3.72,2.73,High,Not Sure
+P0166,23,Female,Student,3,2,0,1,3,2,0,3,3,17,High,7.41,1.31,6.82,Very Regular,High,3.24,1.47,Low,Not Sure
+P0167,39,Male,Employed,3,2,0,1,1,1,3,3,0,14,Moderate,4.23,0.37,6.33,Very Regular,High,3.78,1.66,High,Yes
+P0168,37,Male,Student,3,3,1,3,1,1,1,2,2,17,High,7.16,1.06,6.54,Very Irregular,Low,3.92,3.2,Low,No
+P0169,23,Other,Employed,0,2,3,3,2,3,0,3,1,17,High,5.62,0.36,6.07,Irregular,Moderate,2.73,3.86,High,No
+P0170,28,Male,Employed,0,3,1,0,0,0,1,3,3,11,Moderate,7.05,1.27,6.71,Somewhat Regular,Moderate,3.7,1.75,Low,Not Sure
+P0171,28,Other,Unemployed,2,0,1,3,0,0,3,0,1,10,Moderate,6.21,0.09,6.82,Somewhat Regular,Low,2.35,1.53,Moderate,No
+P0172,36,Female,Unemployed,0,0,3,0,3,0,0,1,3,10,Moderate,3.61,0.61,6.45,Irregular,Low,2.71,1.62,Moderate,Not Sure
+P0173,35,Female,Unemployed,2,0,3,0,3,1,0,1,1,11,Moderate,4.6,1.79,7.22,Very Irregular,Low,3.78,1.95,High,Not Sure
+P0174,24,Female,Employed,2,2,3,1,3,1,3,3,1,19,High,6.59,2.88,5.81,Irregular,High,2.23,1.97,High,No
+P0175,21,Female,Student,3,2,3,1,1,2,0,0,3,15,High,8.11,1.17,6.1,Somewhat Regular,High,2.51,2.6,High,Yes
+P0176,32,Female,Student,3,2,0,1,1,3,3,3,1,17,High,9.23,2.49,4.9,Irregular,High,3.14,0.99,High,Not Sure
+P0177,36,Female,Employed,2,0,0,3,3,0,0,0,0,8,Moderate,5.16,0.97,7.23,Somewhat Regular,Moderate,1.95,2.92,Very Low,Yes
+P0178,19,Other,Unemployed,3,1,2,0,2,1,0,0,1,10,Moderate,9.99,1.43,5.67,Irregular,Low,1.23,1.94,High,Yes
+P0179,19,Other,Employed,1,3,0,1,1,1,3,3,2,15,High,7.43,3.4,6.27,Very Regular,High,2.02,2.07,Low,No
+P0180,36,Other,Student,2,0,3,3,2,0,3,1,2,16,High,8.66,2.44,7.01,Very Regular,Moderate,1.83,2.76,Moderate,No
+P0181,31,Other,Unemployed,2,0,0,3,1,3,1,0,2,12,Moderate,4.87,1.69,5.12,Very Irregular,High,1.68,3.36,Very Low,No
+P0182,24,Other,Unemployed,3,2,0,2,1,2,2,0,2,14,Moderate,5.71,1.28,5.79,Very Irregular,Moderate,2.44,1.47,High,Not Sure
+P0183,26,Male,Unemployed,3,0,0,3,2,0,2,2,3,15,High,6.57,2.52,8.27,Very Regular,Low,0.92,2.63,Moderate,Yes
+P0184,30,Other,Student,2,2,1,2,3,1,0,3,0,14,Moderate,4.72,1.62,5.98,Very Irregular,Low,3.48,2.77,Very Low,No
+P0185,22,Male,Unemployed,3,1,1,1,1,2,3,0,3,15,High,5.21,2.66,6.24,Irregular,Low,3.05,2.62,Very Low,No
+P0186,19,Male,Employed,3,3,1,1,2,2,2,3,2,19,High,5.98,1.47,6.33,Irregular,Moderate,2.43,1.19,High,Yes
+P0187,20,Male,Unemployed,0,3,0,0,3,1,1,1,2,11,Moderate,6.52,2.14,5.34,Very Irregular,High,1.71,2.18,Low,Yes
+P0188,33,Male,Student,0,3,3,1,1,0,0,2,3,13,Moderate,6.47,1.85,6.77,Very Irregular,High,3.1,0.94,Low,No
+P0189,33,Other,Student,3,1,0,0,3,2,1,2,2,14,Moderate,5.04,1.96,5.12,Somewhat Regular,Moderate,3.89,1.74,Moderate,No
+P0190,24,Female,Unemployed,1,0,3,3,0,3,2,2,3,17,High,7.0,2.95,7.16,Very Regular,Moderate,0.91,2.48,Moderate,Not Sure
+P0191,38,Other,Student,2,0,0,0,1,3,1,3,3,13,Moderate,7.33,1.17,7.21,Very Regular,Moderate,3.0,0.59,Moderate,Not Sure
+P0192,31,Female,Unemployed,3,0,3,1,2,2,1,2,1,15,High,4.36,1.45,6.23,Very Irregular,High,2.34,2.18,Moderate,No
+P0193,23,Female,Student,2,1,3,0,2,1,2,2,1,14,Moderate,7.67,2.1,6.34,Very Irregular,Moderate,2.85,4.24,Very Low,Yes
+P0194,36,Female,Unemployed,2,3,1,3,1,0,0,3,3,16,High,8.01,0.44,6.73,Irregular,High,3.55,1.41,Moderate,Not Sure
+P0195,26,Female,Student,3,2,3,3,3,1,0,0,1,16,High,7.44,3.6,5.7,Very Irregular,Moderate,3.6,0.67,Very Low,Not Sure
+P0196,31,Other,Unemployed,1,0,2,0,0,3,3,0,2,11,Moderate,5.36,2.93,6.37,Very Regular,High,2.04,2.08,High,No
+P0197,20,Male,Unemployed,0,1,3,3,0,3,0,2,2,14,Moderate,4.72,1.61,5.31,Irregular,Low,2.23,3.63,Low,Not Sure
+P0198,36,Female,Unemployed,3,2,2,3,3,3,1,3,0,20,High,6.59,1.83,4.25,Somewhat Regular,High,3.91,2.28,Very Low,Not Sure
+P0199,35,Other,Student,0,0,3,1,1,2,3,2,3,15,High,2.75,0.52,8.55,Irregular,Moderate,2.24,-0.27,Very Low,Not Sure
+P0200,37,Female,Unemployed,3,0,0,0,1,0,1,0,1,6,Moderate,3.43,1.54,6.99,Somewhat Regular,Low,1.99,0.01,Moderate,No
+P0201,38,Other,Employed,0,3,1,1,2,1,1,0,0,9,Moderate,5.03,2.13,6.68,Somewhat Regular,Low,3.78,2.15,Low,Not Sure
+P0202,24,Female,Unemployed,0,3,2,1,2,2,0,2,1,13,Moderate,7.79,1.35,5.23,Irregular,Low,3.23,2.5,Moderate,No
+P0203,38,Female,Unemployed,0,3,0,3,0,0,1,2,3,12,Moderate,5.48,1.72,8.01,Irregular,Low,3.5,1.83,High,Yes
+P0204,21,Male,Student,1,0,2,2,3,3,3,0,0,14,Moderate,5.06,0.36,5.4,Very Irregular,High,2.17,3.71,Moderate,Yes
+P0205,26,Female,Student,1,1,2,2,0,1,1,1,2,11,Moderate,6.41,2.16,6.83,Irregular,High,3.19,2.11,Very Low,No
+P0206,25,Female,Unemployed,1,0,0,1,3,2,2,0,2,11,Moderate,4.98,1.11,6.54,Irregular,High,2.71,1.02,High,Not Sure
+P0207,23,Female,Student,3,0,1,2,1,3,2,0,2,14,Moderate,8.08,1.81,4.89,Somewhat Regular,Moderate,3.16,1.27,Very Low,Not Sure
+P0208,29,Other,Employed,2,0,2,2,3,2,3,3,1,18,High,3.57,1.68,6.03,Somewhat Regular,High,3.48,0.01,Very Low,Not Sure
+P0209,19,Female,Unemployed,3,3,0,2,3,0,3,0,0,14,Moderate,6.17,2.04,3.95,Irregular,High,3.03,2.64,High,Yes
+P0210,34,Male,Student,1,3,0,3,1,3,3,3,3,20,High,8.99,1.25,6.14,Very Regular,Moderate,1.89,2.6,High,Yes
+P0211,31,Male,Student,1,2,3,2,1,2,1,1,2,15,High,6.44,0.81,6.3,Somewhat Regular,Moderate,2.7,0.85,High,No
+P0212,20,Other,Unemployed,2,1,3,1,3,0,0,0,0,10,Moderate,3.82,0.64,6.83,Very Irregular,High,5.13,0.19,Low,No
+P0213,30,Other,Student,1,0,2,2,2,2,1,1,3,14,Moderate,5.11,2.15,8.33,Very Irregular,High,2.79,2.83,High,No
+P0214,21,Male,Unemployed,2,0,3,2,3,0,2,0,2,14,Moderate,5.64,1.28,6.86,Irregular,Low,3.41,3.06,High,No
+P0215,35,Male,Employed,3,1,0,3,1,2,0,2,0,12,Moderate,6.33,1.53,6.92,Very Regular,High,2.87,2.36,Moderate,Not Sure
+P0216,19,Other,Employed,2,1,0,2,3,1,0,1,2,12,Moderate,4.67,1.06,6.48,Very Regular,Moderate,2.24,4.07,Moderate,Yes
+P0217,29,Male,Employed,1,0,2,2,1,3,3,3,3,18,High,7.18,2.74,4.65,Very Regular,High,2.06,3.04,Low,Not Sure
+P0218,32,Other,Unemployed,2,2,3,0,2,1,0,2,0,12,Moderate,5.11,1.56,6.69,Very Regular,Low,3.12,2.75,Moderate,Yes
+P0219,21,Male,Unemployed,2,0,2,3,2,0,3,3,0,15,High,8.25,1.59,6.11,Somewhat Regular,Low,3.75,4.58,Low,Not Sure
+P0220,33,Male,Student,1,3,1,0,1,2,2,1,1,12,Moderate,6.49,1.27,5.65,Irregular,Low,3.75,1.57,Very Low,No
+P0221,20,Male,Student,3,1,0,1,2,2,2,1,3,15,High,8.31,0.6,6.43,Irregular,Low,2.9,1.63,Very Low,Not Sure
+P0222,26,Male,Student,1,1,1,3,3,1,2,1,2,15,High,6.97,1.12,5.94,Very Regular,Moderate,0.86,2.46,Low,Not Sure
+P0223,25,Female,Student,0,2,1,1,3,3,1,3,1,15,High,6.26,1.18,5.25,Somewhat Regular,Moderate,1.99,3.12,Very Low,Yes
+P0224,31,Other,Employed,3,1,2,2,1,0,2,0,2,13,Moderate,5.36,2.16,5.11,Very Regular,High,2.71,2.43,Very Low,No
+P0225,38,Female,Employed,2,0,0,1,2,0,2,2,3,12,Moderate,9.48,0.57,5.75,Very Regular,Moderate,2.79,0.99,Low,Not Sure
+P0226,31,Male,Unemployed,3,0,3,2,1,1,2,3,0,15,High,7.67,1.93,6.68,Irregular,Moderate,1.63,1.93,Very Low,Yes
+P0227,19,Female,Employed,1,3,1,2,2,0,3,0,2,14,Moderate,7.46,2.44,7.18,Very Irregular,High,2.91,1.23,Very Low,No
+P0228,23,Other,Employed,0,3,0,3,0,3,2,0,0,11,Moderate,9.76,1.7,5.4,Very Regular,Low,2.76,3.11,Moderate,Not Sure
+P0229,35,Male,Student,2,2,0,2,0,1,3,3,3,16,High,5.48,2.07,6.28,Somewhat Regular,Moderate,2.25,1.46,Moderate,No
+P0230,38,Other,Unemployed,0,2,0,0,0,3,3,2,0,10,Moderate,6.62,1.82,6.66,Irregular,Moderate,2.31,0.26,High,Yes
+P0231,36,Other,Student,3,0,1,0,0,1,3,2,3,13,Moderate,6.19,2.54,6.64,Somewhat Regular,Moderate,1.82,1.86,High,Yes
+P0232,22,Female,Employed,0,3,2,1,3,0,0,1,2,12,Moderate,6.69,2.27,7.71,Very Irregular,Moderate,3.25,2.86,High,Not Sure
+P0233,30,Male,Employed,1,0,3,3,2,3,1,2,3,18,High,6.28,3.47,5.29,Very Irregular,Moderate,3.05,2.51,Moderate,No
+P0234,34,Male,Unemployed,1,1,1,0,3,2,0,1,1,10,Moderate,5.53,1.73,6.32,Very Irregular,Low,3.0,2.81,Very Low,Yes
+P0235,31,Male,Employed,1,2,0,2,2,1,0,3,1,12,Moderate,7.57,0.84,7.81,Very Regular,High,2.05,0.4,Moderate,Yes
+P0236,34,Other,Student,3,3,1,3,2,1,0,1,2,16,High,6.11,0.58,4.85,Irregular,High,2.54,1.01,Very Low,No
+P0237,38,Female,Unemployed,0,0,2,1,2,3,0,1,3,12,Moderate,6.45,1.64,6.57,Very Irregular,High,2.84,1.88,Very Low,No
+P0238,39,Other,Employed,2,3,3,2,0,0,0,1,1,12,Moderate,8.43,2.94,6.29,Irregular,Low,1.9,2.06,Low,Yes
+P0239,25,Other,Employed,0,2,0,3,3,3,1,2,2,16,High,8.81,2.06,6.86,Somewhat Regular,Low,1.93,3.13,Moderate,Not Sure
+P0240,27,Female,Student,2,0,2,2,0,0,3,3,3,15,High,6.88,3.01,5.23,Irregular,High,1.94,0.99,Low,No
+P0241,37,Other,Unemployed,1,3,1,3,0,2,2,0,1,13,Moderate,4.67,1.53,6.39,Very Regular,High,3.23,2.15,Moderate,Yes
+P0242,38,Male,Employed,1,0,1,1,1,1,1,1,1,8,Moderate,3.36,-0.37,8.13,Irregular,Moderate,0.98,1.63,Moderate,Yes
+P0243,28,Male,Student,3,0,0,3,2,0,1,2,2,13,Moderate,6.37,1.92,5.93,Very Irregular,Low,1.03,1.43,Low,Not Sure
+P0244,39,Other,Student,1,1,1,3,3,2,0,2,0,13,Moderate,6.54,1.99,6.37,Very Regular,High,2.01,2.64,Low,No
+P0245,25,Female,Employed,1,3,3,2,1,0,2,2,0,14,Moderate,6.75,0.74,6.29,Irregular,Low,4.26,2.82,Moderate,No
+P0246,27,Other,Employed,2,2,0,3,1,3,3,1,2,17,High,6.39,1.47,6.42,Very Regular,Low,2.41,2.28,Low,Yes
+P0247,20,Other,Student,3,0,0,1,3,0,1,3,2,13,Moderate,4.28,0.37,6.6,Very Regular,Moderate,2.8,2.25,High,Not Sure
+P0248,31,Female,Employed,0,1,0,3,0,3,0,2,1,10,Moderate,6.88,0.53,7.23,Very Irregular,Moderate,2.51,1.05,Moderate,Yes
+P0249,28,Other,Student,0,0,0,1,0,0,1,1,3,6,Moderate,3.29,2.89,7.25,Irregular,Moderate,4.93,0.99,Very Low,No
+P0250,24,Other,Unemployed,2,2,2,1,3,0,0,1,3,14,Moderate,7.84,0.57,6.51,Very Irregular,High,1.84,1.17,Moderate,Yes
+P0251,33,Male,Employed,2,1,3,1,0,2,3,1,2,15,High,6.34,2.58,5.6,Very Regular,Low,3.96,2.31,Low,No
+P0252,34,Male,Student,2,0,3,3,2,0,0,2,1,13,Moderate,8.27,2.99,8.78,Irregular,Moderate,2.0,2.28,Moderate,Yes
+P0253,23,Male,Employed,0,0,1,3,2,2,1,0,0,9,Moderate,7.39,1.32,7.66,Very Irregular,Low,1.54,0.87,Low,No
+P0254,30,Other,Unemployed,2,1,1,1,1,0,0,3,2,11,Moderate,8.82,1.06,6.07,Somewhat Regular,High,1.17,1.59,Moderate,Yes
+P0255,39,Female,Unemployed,0,1,0,3,0,3,2,2,2,13,Moderate,6.5,0.25,7.13,Very Regular,Moderate,1.25,-0.09,Very Low,No
+P0256,33,Male,Employed,3,2,0,2,0,0,1,0,0,8,Moderate,5.36,0.72,7.14,Very Irregular,High,2.35,2.35,High,Not Sure
+P0257,19,Other,Employed,3,2,3,2,2,1,0,2,2,17,High,6.39,1.8,6.79,Irregular,Low,1.74,3.09,High,Yes
+P0258,30,Female,Student,2,3,0,0,2,1,2,3,3,16,High,8.31,2.44,5.98,Very Irregular,High,3.06,1.98,Moderate,Yes
+P0259,18,Female,Student,1,1,0,2,3,3,2,0,2,14,Moderate,6.86,3.17,3.97,Somewhat Regular,Moderate,4.05,2.02,High,Not Sure
+P0260,25,Male,Employed,0,3,3,1,2,2,3,3,2,19,High,3.98,2.1,6.28,Irregular,High,4.0,3.94,Moderate,Yes
+P0261,19,Female,Student,3,1,2,0,0,3,2,1,3,15,High,6.54,1.83,5.59,Very Regular,High,2.25,1.02,Very Low,Not Sure
+P0262,29,Other,Student,0,1,0,0,0,3,1,0,1,6,Moderate,4.95,0.72,5.42,Irregular,Moderate,2.05,1.19,Low,Yes
+P0263,39,Male,Student,0,2,1,1,2,2,3,0,0,11,Moderate,7.15,2.23,6.71,Irregular,Low,2.19,2.52,Low,Not Sure
+P0264,37,Male,Unemployed,0,3,1,2,1,0,0,3,1,11,Moderate,8.1,1.87,6.41,Very Regular,Low,2.66,1.11,High,No
+P0265,26,Other,Unemployed,0,1,1,3,0,0,2,0,3,10,Moderate,6.26,0.94,8.21,Very Irregular,High,2.62,2.8,Moderate,Not Sure
+P0266,23,Female,Student,1,1,2,2,2,2,0,2,1,13,Moderate,9.47,1.56,5.63,Very Irregular,Low,2.25,4.02,High,No
+P0267,20,Other,Employed,2,1,1,0,1,1,2,1,2,11,Moderate,3.62,3.26,7.31,Irregular,High,4.31,0.4,Very Low,No
+P0268,19,Other,Student,0,3,0,2,1,0,1,0,2,9,Moderate,6.15,0.29,7.98,Irregular,Moderate,2.59,1.45,High,Yes
+P0269,30,Male,Employed,3,2,0,0,3,2,0,1,3,14,Moderate,7.54,2.87,5.47,Irregular,Low,3.4,2.17,Very Low,Not Sure
+P0270,39,Other,Unemployed,1,2,3,2,0,2,0,3,2,15,High,9.66,1.4,4.64,Very Irregular,Moderate,4.5,3.63,Very Low,No
+P0271,26,Other,Unemployed,1,1,3,0,3,2,0,0,2,12,Moderate,6.09,1.41,6.15,Somewhat Regular,Moderate,3.3,0.69,High,Not Sure
+P0272,18,Male,Student,2,3,1,1,3,2,1,1,1,15,High,5.94,1.64,3.84,Very Irregular,Low,3.67,1.56,Moderate,Not Sure
+P0273,20,Male,Unemployed,1,1,0,2,3,2,1,3,2,15,High,5.91,2.93,6.85,Somewhat Regular,Low,2.16,3.1,Low,Not Sure
+P0274,18,Female,Employed,1,0,0,1,3,2,0,1,0,8,Moderate,5.22,1.66,7.49,Somewhat Regular,Moderate,2.4,3.17,Moderate,No
+P0275,35,Female,Employed,3,2,0,2,3,1,1,2,1,15,High,7.2,2.82,6.65,Irregular,High,1.44,1.45,Very Low,Not Sure
+P0276,21,Other,Employed,3,2,0,2,2,1,1,1,0,12,Moderate,2.55,1.04,5.91,Very Regular,Moderate,3.14,1.06,Very Low,Not Sure
+P0277,24,Other,Employed,2,0,2,3,2,2,3,0,0,14,Moderate,4.77,1.04,9.25,Irregular,Moderate,3.94,0.85,Low,No
+P0278,37,Male,Unemployed,3,0,0,2,1,3,2,3,0,14,Moderate,4.42,0.78,4.94,Somewhat Regular,Moderate,3.41,2.21,Moderate,Not Sure
+P0279,18,Other,Unemployed,0,0,0,0,1,2,0,2,2,7,Moderate,6.25,1.1,7.57,Very Irregular,Low,2.83,2.27,Very Low,No
+P0280,39,Other,Employed,0,0,2,0,2,0,3,1,3,11,Moderate,7.01,1.22,6.15,Irregular,Low,3.53,2.97,Very Low,Not Sure
+P0281,35,Other,Employed,1,1,1,0,1,0,1,2,3,10,Moderate,5.58,1.84,5.72,Irregular,Low,2.21,2.11,Moderate,No
+P0282,28,Male,Student,1,2,2,2,1,2,2,1,2,15,High,4.21,2.11,7.81,Irregular,Moderate,2.71,2.47,Low,Yes
+P0283,18,Male,Student,1,0,2,2,1,3,2,1,0,12,Moderate,5.27,0.75,8.64,Very Regular,Moderate,3.98,2.06,Very Low,Not Sure
+P0284,24,Other,Unemployed,3,3,1,0,2,0,0,1,0,10,Moderate,8.9,2.37,7.22,Very Regular,High,3.53,2.32,Moderate,Not Sure
+P0285,20,Male,Unemployed,2,0,0,2,3,1,3,3,0,14,Moderate,7.77,2.56,6.08,Very Irregular,Low,4.33,1.93,Low,Yes
+P0286,29,Other,Unemployed,2,1,0,2,1,0,2,2,1,11,Moderate,6.61,1.22,3.92,Somewhat Regular,High,2.51,1.85,High,Yes
+P0287,25,Female,Employed,1,2,3,3,1,3,3,1,1,18,High,8.07,0.1,5.49,Somewhat Regular,Moderate,3.11,3.6,Moderate,Not Sure
+P0288,32,Female,Student,3,3,0,2,1,0,2,2,2,15,High,5.76,0.75,4.78,Somewhat Regular,Moderate,2.56,1.63,High,Yes
+P0289,37,Female,Unemployed,2,1,2,2,3,2,1,2,1,16,High,6.29,3.49,6.47,Very Irregular,Moderate,4.31,3.7,Moderate,No
+P0290,30,Other,Unemployed,1,2,3,1,3,0,2,0,2,14,Moderate,7.02,2.82,7.0,Very Irregular,Low,2.26,1.72,Low,Not Sure
+P0291,23,Male,Employed,0,1,0,3,2,2,2,0,3,13,Moderate,7.09,1.98,7.94,Very Regular,High,2.91,1.4,High,No
+P0292,28,Other,Student,1,3,3,3,2,0,3,0,2,17,High,4.15,2.6,7.01,Very Regular,Moderate,4.93,3.77,Very Low,Yes
+P0293,35,Female,Employed,3,2,1,2,1,1,3,0,3,16,High,9.05,3.74,7.52,Somewhat Regular,Moderate,3.53,2.46,Very Low,Yes
+P0294,38,Female,Employed,1,1,0,2,3,2,1,1,2,13,Moderate,4.0,2.14,6.88,Very Regular,Moderate,3.0,2.12,Very Low,No
+P0295,37,Other,Employed,1,0,3,3,0,3,3,0,0,13,Moderate,5.8,2.04,5.81,Somewhat Regular,Moderate,2.72,0.91,Very Low,No
+P0296,31,Male,Student,2,3,3,2,0,2,3,0,1,16,High,8.35,1.99,5.82,Irregular,Low,3.39,3.2,Moderate,Yes
+P0297,23,Male,Student,3,2,3,3,2,0,2,2,3,20,High,10.67,1.06,4.92,Irregular,Moderate,1.84,2.2,Low,Not Sure
+P0298,33,Female,Employed,0,2,1,1,2,1,3,1,0,11,Moderate,7.75,1.86,7.54,Very Regular,Low,4.56,3.07,Very Low,No
+P0299,38,Male,Student,0,1,2,0,3,0,0,2,2,10,Moderate,8.65,1.11,5.15,Very Irregular,Low,1.95,2.7,Moderate,Yes
+P0300,31,Female,Student,1,2,3,0,2,2,0,2,0,12,Moderate,6.44,2.1,7.29,Very Regular,Low,2.01,2.22,High,Not Sure
+P0301,28,Other,Employed,0,1,2,2,1,1,3,2,2,14,Moderate,6.4,0.68,7.41,Very Regular,Low,3.78,0.89,High,Not Sure
+P0302,36,Other,Student,0,3,2,3,0,2,3,3,1,17,High,8.0,3.44,5.62,Somewhat Regular,High,2.51,2.69,Low,No
+P0303,37,Female,Student,1,3,0,2,2,2,2,3,3,18,High,5.33,4.35,5.0,Irregular,Low,2.59,0.75,High,Yes
+P0304,21,Other,Unemployed,1,1,2,3,3,3,2,1,3,19,High,7.71,1.89,5.6,Very Regular,High,3.15,1.69,Moderate,Yes
+P0305,37,Other,Unemployed,2,3,1,1,2,2,3,0,2,16,High,6.35,1.97,5.3,Very Regular,Moderate,3.8,2.59,High,Yes
+P0306,25,Other,Employed,2,2,0,1,1,3,3,2,0,14,Moderate,6.51,1.54,5.55,Irregular,Moderate,2.52,0.65,Very Low,No
+P0307,23,Male,Employed,3,1,3,3,2,0,3,2,0,17,High,4.15,1.48,5.54,Somewhat Regular,High,3.9,1.34,Very Low,Not Sure
+P0308,27,Other,Employed,2,3,0,3,0,0,3,3,0,14,Moderate,5.26,2.38,7.8,Somewhat Regular,Low,2.62,0.98,Moderate,Not Sure
+P0309,27,Female,Unemployed,3,3,1,3,2,3,3,3,1,22,High,6.96,2.93,5.86,Somewhat Regular,High,3.29,1.6,High,Not Sure
+P0310,19,Female,Unemployed,0,1,0,0,3,1,2,3,3,13,Moderate,7.77,0.79,6.94,Somewhat Regular,Low,4.17,2.51,Very Low,Not Sure
+P0311,25,Female,Student,3,1,2,0,1,0,3,0,2,12,Moderate,8.96,2.07,5.6,Irregular,Low,2.93,1.8,Very Low,Yes
+P0312,24,Male,Employed,3,2,0,3,1,3,0,0,0,12,Moderate,6.56,1.63,7.74,Irregular,High,2.69,3.83,High,Not Sure
+P0313,31,Female,Employed,2,1,3,3,2,3,0,0,3,17,High,5.7,1.53,5.93,Very Regular,High,3.08,2.32,Low,No
+P0314,39,Female,Student,1,3,1,3,0,1,3,2,3,17,High,8.46,2.85,5.59,Irregular,Moderate,2.55,3.09,Very Low,No
+P0315,22,Female,Employed,1,3,0,2,0,2,1,0,1,10,Moderate,9.79,2.0,7.17,Very Irregular,Moderate,3.87,1.42,Moderate,Yes
+P0316,37,Female,Unemployed,0,0,1,3,0,0,2,0,0,6,Moderate,5.8,0.5,5.92,Very Irregular,Moderate,3.0,1.98,Moderate,Yes
+P0317,32,Other,Employed,2,0,2,0,0,3,0,0,3,10,Moderate,8.06,1.99,8.39,Very Regular,Moderate,2.62,1.83,Low,Not Sure
+P0318,31,Female,Employed,1,1,0,2,0,1,0,3,2,10,Moderate,6.91,0.53,7.15,Very Regular,Low,2.12,4.03,Moderate,Not Sure
+P0319,29,Female,Employed,2,0,2,3,3,1,0,0,3,14,Moderate,7.37,2.31,5.65,Very Irregular,High,1.58,3.73,High,Yes
+P0320,25,Other,Employed,3,2,1,3,0,2,3,1,1,16,High,6.31,1.88,5.56,Irregular,Moderate,1.64,2.91,Very Low,Not Sure
+P0321,38,Female,Unemployed,0,3,2,3,1,1,1,1,0,12,Moderate,5.55,2.85,6.15,Very Irregular,Moderate,2.13,0.43,Very Low,Yes
+P0322,38,Other,Unemployed,2,1,2,3,2,2,3,2,0,17,High,5.71,0.97,6.7,Very Irregular,Moderate,3.72,0.86,Low,Yes
+P0323,22,Male,Unemployed,2,3,3,1,1,0,2,3,1,16,High,9.51,1.41,4.14,Very Irregular,Low,3.38,3.69,Low,Yes
+P0324,20,Male,Unemployed,1,3,3,2,3,0,1,1,3,17,High,6.24,1.48,5.0,Irregular,Moderate,1.75,2.65,High,Not Sure
+P0325,31,Male,Unemployed,0,0,2,1,2,1,3,1,1,11,Moderate,7.91,2.17,6.92,Somewhat Regular,High,4.07,1.1,High,No
+P0326,19,Female,Employed,2,2,1,3,3,2,3,2,3,21,High,9.72,1.17,6.87,Very Regular,High,2.55,2.06,Low,Not Sure
+P0327,38,Female,Employed,0,3,0,3,1,0,1,0,0,8,Moderate,6.32,0.81,7.38,Irregular,High,3.77,0.09,Moderate,Yes
+P0328,23,Male,Student,0,2,3,3,2,2,3,2,1,18,High,8.86,3.42,6.32,Somewhat Regular,Moderate,4.29,0.35,High,Not Sure
+P0329,37,Male,Employed,0,3,2,2,0,3,0,1,0,11,Moderate,5.79,1.04,6.62,Irregular,High,1.71,2.37,High,Yes
+P0330,19,Other,Employed,0,3,3,2,1,2,3,3,3,20,High,6.67,2.23,6.38,Very Irregular,Low,3.39,4.09,Very Low,Yes
+P0331,39,Male,Employed,3,1,1,0,2,2,1,0,3,13,Moderate,5.65,1.53,6.48,Somewhat Regular,High,2.35,0.63,High,Yes
+P0332,32,Other,Employed,0,0,0,2,1,1,1,0,2,7,Moderate,5.35,1.28,7.98,Irregular,High,1.06,0.45,Very Low,Not Sure
+P0333,32,Other,Employed,0,0,1,1,0,0,1,0,3,6,Moderate,7.45,1.25,6.14,Irregular,Low,1.0,2.28,Low,No
+P0334,30,Other,Student,0,2,0,3,2,3,1,0,1,12,Moderate,6.89,1.49,5.64,Very Regular,Low,3.24,2.25,Low,Yes
+P0335,37,Female,Student,1,1,2,3,1,1,3,0,0,12,Moderate,5.69,1.74,5.44,Irregular,High,2.39,2.71,Moderate,No
+P0336,29,Other,Student,2,0,2,2,3,3,2,3,1,18,High,7.04,2.22,6.53,Very Regular,Low,1.34,3.78,Moderate,No
+P0337,28,Other,Unemployed,1,0,2,3,3,0,1,1,3,14,Moderate,5.57,1.86,5.1,Very Irregular,High,2.3,2.52,High,No
+P0338,21,Other,Student,0,1,3,3,0,1,2,2,1,13,Moderate,5.8,0.95,5.24,Somewhat Regular,Moderate,0.39,1.49,Very Low,No
+P0339,33,Female,Unemployed,2,1,1,1,1,1,0,0,0,7,Moderate,3.95,-0.34,6.95,Irregular,Low,3.1,1.45,Low,Yes
+P0340,23,Female,Unemployed,3,1,1,2,3,1,3,0,0,14,Moderate,6.0,1.58,6.5,Very Regular,Low,2.85,3.19,Low,No
+P0341,27,Male,Student,2,2,0,3,3,2,3,0,0,15,High,7.18,1.46,6.01,Irregular,High,4.04,1.94,Low,No
+P0342,28,Other,Employed,0,2,1,2,0,3,3,2,1,14,Moderate,4.95,1.12,6.66,Very Regular,Moderate,1.41,2.77,Low,Not Sure
+P0343,32,Other,Employed,3,3,2,1,0,3,1,0,3,16,High,8.84,1.42,5.36,Somewhat Regular,High,2.58,1.17,Moderate,Not Sure
+P0344,20,Other,Student,2,2,0,0,1,0,2,2,0,9,Moderate,6.42,1.84,6.19,Somewhat Regular,High,2.31,2.69,Low,Yes
+P0345,39,Other,Unemployed,2,2,3,0,2,1,2,0,2,14,Moderate,6.13,1.72,5.62,Irregular,High,3.7,2.3,Very Low,Yes
+P0346,30,Male,Student,3,2,1,1,1,2,2,2,2,16,High,5.84,2.18,5.93,Irregular,High,3.65,0.17,Low,Not Sure
+P0347,25,Female,Unemployed,3,3,0,1,2,0,2,0,0,11,Moderate,7.05,1.11,4.46,Very Regular,Moderate,1.94,2.73,Moderate,Not Sure
+P0348,30,Female,Employed,3,3,0,0,0,2,2,3,2,15,High,5.34,0.76,6.36,Somewhat Regular,High,4.08,2.56,High,No
+P0349,37,Female,Student,0,3,0,1,2,3,1,1,3,14,Moderate,5.82,1.83,6.2,Very Regular,Low,2.28,1.25,High,No
+P0350,39,Female,Employed,0,3,1,3,3,2,3,0,2,17,High,7.61,2.09,5.35,Somewhat Regular,Moderate,3.13,2.71,Low,No
+P0351,37,Other,Employed,0,3,3,1,1,0,3,2,1,14,Moderate,5.15,1.76,6.25,Irregular,Moderate,2.23,1.17,Low,No
+P0352,27,Other,Unemployed,1,2,3,2,0,0,0,2,2,12,Moderate,6.22,0.25,4.34,Very Regular,Moderate,4.14,3.21,Low,No
+P0353,33,Male,Employed,3,1,2,0,2,2,3,0,2,15,High,8.7,1.99,6.91,Very Irregular,Low,2.03,2.84,Low,Yes
+P0354,29,Male,Employed,2,1,2,3,1,2,2,0,2,15,High,5.91,2.7,5.07,Very Irregular,High,4.42,3.77,High,Yes
+P0355,33,Male,Employed,1,3,1,1,3,1,3,0,3,16,High,7.69,0.97,6.82,Irregular,Low,1.48,1.49,Low,No
+P0356,22,Other,Employed,1,3,0,1,0,3,1,2,2,13,Moderate,7.36,0.97,7.6,Very Irregular,Moderate,3.43,2.11,High,Yes
+P0357,25,Male,Employed,0,3,1,0,1,3,0,1,3,12,Moderate,6.31,1.38,7.84,Very Irregular,Low,0.39,1.55,Low,Not Sure
+P0358,31,Female,Student,1,0,2,3,0,3,3,0,2,14,Moderate,5.09,1.08,6.3,Very Regular,Moderate,2.9,1.4,High,Not Sure
+P0359,31,Other,Unemployed,1,3,1,3,1,3,1,3,0,16,High,6.94,0.31,6.8,Very Irregular,Moderate,3.1,2.94,Very Low,Yes
+P0360,21,Female,Student,3,1,1,2,2,3,0,2,3,17,High,8.29,2.37,5.01,Irregular,High,4.06,4.08,Moderate,No
+P0361,31,Female,Student,1,3,3,0,0,2,1,0,2,12,Moderate,6.5,1.41,6.33,Very Irregular,Low,3.4,0.09,Low,No
+P0362,37,Other,Employed,2,3,3,2,1,2,2,0,0,15,High,6.48,1.02,7.61,Very Regular,Moderate,3.92,2.38,High,Not Sure
+P0363,37,Female,Unemployed,2,0,0,0,1,2,0,2,1,8,Moderate,4.99,0.32,5.47,Very Regular,Low,2.34,1.83,Very Low,No
+P0364,39,Female,Employed,1,3,2,3,1,2,0,2,1,15,High,6.99,0.16,5.99,Irregular,Low,3.9,2.22,Low,Not Sure
+P0365,25,Other,Employed,0,3,2,0,2,3,2,0,2,14,Moderate,6.68,0.91,7.08,Very Regular,Low,2.08,2.32,Very Low,Yes
+P0366,30,Other,Employed,3,0,1,3,3,2,0,0,1,13,Moderate,6.04,1.06,5.63,Very Irregular,High,3.89,4.83,High,Yes
+P0367,36,Other,Unemployed,1,2,2,0,3,0,3,3,2,16,High,5.47,1.76,6.13,Somewhat Regular,Moderate,2.64,2.34,Moderate,Yes
+P0368,36,Female,Unemployed,3,1,1,3,1,0,1,3,0,13,Moderate,7.43,1.68,6.76,Irregular,High,1.95,3.31,Moderate,Not Sure
+P0369,36,Other,Unemployed,0,0,1,0,3,3,0,0,0,7,Moderate,4.93,2.05,6.75,Very Irregular,High,2.7,2.05,Moderate,No
+P0370,28,Male,Employed,3,1,0,2,0,2,1,3,2,14,Moderate,7.15,1.63,6.64,Irregular,High,2.52,1.71,Very Low,No
+P0371,21,Other,Employed,1,1,2,1,3,0,2,3,1,14,Moderate,4.67,0.35,4.51,Very Regular,High,1.34,1.49,High,No
+P0372,37,Other,Unemployed,1,1,3,2,0,1,2,1,0,11,Moderate,9.03,3.51,5.91,Somewhat Regular,High,0.75,3.54,Very Low,Not Sure
+P0373,37,Female,Student,0,0,3,0,3,1,3,0,3,13,Moderate,9.55,2.6,6.56,Very Irregular,Low,3.68,3.26,Low,Yes
+P0374,35,Other,Unemployed,3,2,2,2,3,1,0,1,3,17,High,5.85,1.23,5.71,Very Regular,Low,2.63,1.2,Very Low,No
+P0375,21,Female,Employed,0,0,2,3,1,1,3,2,0,12,Moderate,9.61,1.28,6.89,Somewhat Regular,Moderate,3.17,2.3,Low,No
+P0376,18,Other,Unemployed,2,1,1,2,1,0,1,1,3,12,Moderate,6.05,1.52,5.91,Very Irregular,High,5.23,2.63,Very Low,Not Sure
+P0377,22,Male,Unemployed,1,0,1,0,1,0,3,1,1,8,Moderate,4.79,1.08,8.59,Somewhat Regular,High,1.57,1.35,Moderate,Not Sure
+P0378,20,Female,Unemployed,2,2,1,3,1,0,1,0,3,13,Moderate,6.08,1.91,7.56,Very Irregular,Moderate,3.79,1.59,Low,No
+P0379,39,Other,Employed,1,3,2,1,1,0,2,0,0,10,Moderate,6.78,1.42,8.77,Irregular,High,3.39,2.57,Moderate,Not Sure
+P0380,26,Female,Student,1,0,1,3,0,2,0,1,0,8,Moderate,3.89,0.16,6.73,Somewhat Regular,Moderate,1.81,2.13,Moderate,Yes
+P0381,32,Female,Employed,2,2,1,3,0,2,2,1,3,16,High,7.03,-0.2,3.82,Somewhat Regular,High,2.46,2.1,High,No
+P0382,21,Female,Employed,2,0,2,0,3,2,3,0,2,14,Moderate,6.68,1.83,7.32,Irregular,Moderate,2.88,0.86,Very Low,Not Sure
+P0383,22,Other,Unemployed,3,0,1,2,3,1,3,3,0,16,High,4.14,1.9,6.52,Very Irregular,Moderate,2.93,1.97,Moderate,Yes
+P0384,31,Female,Student,3,1,2,3,2,0,3,2,3,19,High,5.38,1.71,3.45,Irregular,High,2.59,2.39,Very Low,No
+P0385,18,Female,Unemployed,3,1,0,1,3,2,1,3,1,15,High,5.13,2.66,4.86,Irregular,High,2.18,2.87,High,Yes
+P0386,30,Male,Unemployed,1,2,2,3,2,0,1,2,0,13,Moderate,7.86,2.44,6.77,Irregular,High,3.84,1.03,Moderate,Yes
+P0387,31,Male,Unemployed,1,0,3,3,0,0,2,2,2,13,Moderate,6.04,1.68,6.88,Somewhat Regular,Low,2.13,3.09,Very Low,Not Sure
+P0388,18,Other,Student,2,3,2,3,0,1,0,0,1,12,Moderate,4.82,1.84,7.18,Somewhat Regular,Low,4.57,1.65,Very Low,No
+P0389,39,Female,Unemployed,1,3,3,3,2,3,0,1,3,19,High,8.95,1.02,3.42,Very Irregular,Low,2.43,3.59,Low,Yes
+P0390,32,Other,Student,0,0,0,2,2,2,0,3,1,10,Moderate,3.4,1.35,4.83,Very Irregular,High,2.55,1.89,High,No
+P0391,26,Other,Student,0,0,0,2,0,1,3,3,0,9,Moderate,4.23,1.42,6.02,Irregular,Moderate,0.88,2.3,Moderate,Not Sure
+P0392,35,Male,Student,0,1,2,0,0,1,1,0,2,7,Moderate,9.47,1.86,6.77,Somewhat Regular,High,2.24,0.55,Very Low,Yes
+P0393,36,Female,Student,1,3,0,3,0,3,0,2,1,13,Moderate,4.28,2.33,5.29,Very Regular,Moderate,2.63,0.44,High,Yes
+P0394,36,Other,Employed,2,2,0,3,1,2,0,0,1,11,Moderate,7.33,1.09,5.66,Very Regular,Low,1.92,1.3,Moderate,Not Sure
+P0395,19,Other,Student,0,0,0,1,0,1,1,3,0,6,Moderate,5.71,0.27,6.0,Irregular,Moderate,1.38,3.04,High,Not Sure
+P0396,32,Other,Unemployed,3,2,3,0,0,0,1,3,0,12,Moderate,5.61,1.51,7.4,Very Irregular,Low,4.5,2.85,High,No
+P0397,19,Male,Student,0,0,3,1,0,1,0,2,0,7,Moderate,6.2,1.17,5.83,Irregular,Low,1.63,3.9,High,Not Sure
+P0398,27,Female,Unemployed,3,3,0,3,2,1,1,3,3,19,High,6.9,2.4,6.24,Somewhat Regular,Low,3.95,1.75,Moderate,No
+P0399,35,Other,Unemployed,3,3,2,0,0,1,0,0,1,10,Moderate,3.94,1.78,4.52,Somewhat Regular,Low,2.55,3.9,High,No
+P0400,22,Other,Employed,2,1,2,3,2,1,2,1,3,17,High,5.28,2.22,6.6,Very Regular,Moderate,2.22,3.4,Very Low,Yes
+P0401,20,Male,Employed,2,1,0,2,1,3,2,1,2,14,Moderate,6.63,1.79,7.1,Irregular,Low,2.1,2.38,Very Low,No
+P0402,36,Female,Student,1,0,2,0,0,2,2,1,1,9,Moderate,4.76,1.8,6.31,Very Irregular,Moderate,2.06,1.8,Moderate,No
+P0403,31,Other,Unemployed,3,2,1,2,2,1,1,3,2,17,High,5.45,1.76,5.06,Very Regular,Moderate,3.61,3.3,Moderate,Not Sure
+P0404,24,Male,Student,0,0,0,0,2,3,3,1,3,12,Moderate,5.14,2.78,7.73,Very Regular,Moderate,3.39,1.67,Moderate,Yes
+P0405,18,Female,Unemployed,2,3,1,2,3,2,0,2,2,17,High,8.35,2.99,7.61,Irregular,High,1.01,2.12,Very Low,Not Sure
+P0406,33,Female,Employed,0,3,3,2,3,2,1,2,3,19,High,4.0,3.43,5.77,Somewhat Regular,Low,2.17,2.03,Low,No
+P0407,35,Male,Employed,1,1,1,1,2,2,1,2,2,13,Moderate,5.72,2.07,7.31,Irregular,Moderate,4.1,2.21,High,Not Sure
+P0408,37,Other,Student,0,0,0,1,1,2,3,1,0,8,Moderate,6.32,1.1,6.23,Somewhat Regular,High,1.89,1.86,Very Low,Not Sure
+P0409,23,Female,Unemployed,1,3,2,1,1,0,0,1,0,9,Moderate,3.57,2.85,7.95,Irregular,Low,2.07,2.46,Very Low,Yes
+P0410,34,Other,Unemployed,2,0,3,1,2,1,3,0,2,14,Moderate,5.67,2.42,4.63,Somewhat Regular,High,2.7,2.22,Low,Yes
+P0411,37,Female,Unemployed,3,3,2,0,0,3,0,0,1,12,Moderate,5.13,2.02,6.72,Very Irregular,Low,2.77,1.1,Low,Not Sure
+P0412,21,Other,Employed,0,1,2,2,2,3,0,3,1,14,Moderate,6.13,1.61,5.85,Very Regular,High,2.13,3.29,High,Yes
+P0413,22,Female,Student,2,2,0,1,0,2,1,2,1,11,Moderate,6.52,1.53,6.77,Very Irregular,Moderate,2.54,1.24,Very Low,Not Sure
+P0414,18,Female,Unemployed,3,1,0,3,1,2,0,0,1,11,Moderate,7.33,0.41,5.93,Irregular,High,2.02,3.08,Very Low,No
+P0415,23,Female,Student,3,0,1,0,0,3,3,2,2,14,Moderate,6.75,0.64,5.64,Somewhat Regular,High,1.04,3.12,Very Low,Yes
+P0416,37,Female,Employed,1,0,2,0,1,1,0,2,1,8,Moderate,5.35,1.28,6.27,Very Regular,High,1.36,0.73,Very Low,Yes
+P0417,32,Female,Student,1,3,1,2,3,2,2,0,3,17,High,9.26,1.72,5.97,Irregular,Moderate,1.75,0.87,Low,Yes
+P0418,18,Other,Unemployed,3,1,3,2,0,0,2,2,2,15,High,6.37,1.24,5.36,Very Irregular,Moderate,1.9,0.79,High,No
+P0419,21,Female,Employed,1,1,3,2,3,2,1,1,1,15,High,6.55,0.18,6.9,Very Regular,High,3.56,1.26,Low,Not Sure
+P0420,38,Female,Student,1,1,2,1,1,0,0,2,2,10,Moderate,6.63,1.39,6.91,Somewhat Regular,High,3.06,1.87,High,Not Sure
+P0421,19,Male,Unemployed,2,1,0,3,2,1,2,3,1,15,High,8.86,1.65,7.68,Somewhat Regular,Low,4.13,3.8,Very Low,No
+P0422,24,Female,Unemployed,2,1,3,2,1,2,2,0,0,13,Moderate,2.58,3.16,7.03,Very Irregular,High,2.84,2.82,High,Yes
+P0423,19,Male,Employed,1,3,0,1,3,0,0,1,2,11,Moderate,4.93,0.73,7.63,Irregular,Low,4.22,1.06,Moderate,Yes
+P0424,34,Other,Student,3,1,2,1,1,1,2,3,1,15,High,8.61,1.49,7.05,Very Regular,High,1.64,3.4,High,Not Sure
+P0425,27,Male,Student,0,0,3,2,0,1,0,0,3,9,Moderate,5.22,0.82,6.54,Somewhat Regular,Low,2.23,1.58,Very Low,Not Sure
+P0426,34,Male,Employed,0,0,1,3,1,3,1,2,0,11,Moderate,5.01,2.35,6.57,Very Regular,Low,4.1,4.46,Very Low,No
+P0427,35,Female,Student,1,3,3,0,0,1,0,0,1,9,Moderate,4.79,2.4,7.5,Somewhat Regular,Low,2.69,0.42,Low,Not Sure
+P0428,36,Female,Student,1,3,1,0,1,1,1,3,0,11,Moderate,5.81,1.09,3.55,Irregular,High,3.25,1.8,Moderate,Yes
+P0429,34,Female,Student,3,0,3,0,3,2,2,2,0,15,High,5.91,2.55,7.64,Somewhat Regular,Moderate,3.46,2.68,Moderate,No
+P0430,18,Male,Unemployed,0,0,1,1,3,3,1,3,0,12,Moderate,6.77,3.41,5.72,Somewhat Regular,High,4.7,1.84,High,Not Sure
+P0431,31,Female,Student,2,1,1,1,2,0,1,0,0,8,Moderate,4.53,1.2,4.24,Irregular,High,3.11,3.13,High,Not Sure
+P0432,34,Female,Unemployed,3,1,3,0,0,1,3,1,1,13,Moderate,6.98,1.76,8.44,Very Irregular,Moderate,2.02,2.05,Low,No
+P0433,27,Female,Student,0,2,2,0,2,0,1,3,3,13,Moderate,7.28,2.0,6.34,Very Irregular,Low,3.37,2.93,Low,No
+P0434,31,Other,Student,3,2,1,3,0,1,1,0,3,14,Moderate,7.06,1.99,7.38,Very Irregular,Low,1.68,1.62,High,No
+P0435,33,Other,Unemployed,2,1,3,2,0,2,0,3,2,15,High,6.01,2.04,5.04,Somewhat Regular,Moderate,2.5,2.56,Low,No
+P0436,32,Male,Employed,2,0,1,0,1,0,3,0,0,7,Moderate,8.46,2.24,6.84,Very Regular,Moderate,1.62,3.74,Moderate,Yes
+P0437,31,Other,Unemployed,2,1,1,3,1,3,2,1,1,15,High,5.95,1.19,8.73,Somewhat Regular,Low,4.0,1.1,Moderate,No
+P0438,27,Other,Unemployed,0,1,0,3,1,0,2,1,3,11,Moderate,6.62,1.95,7.9,Very Regular,Low,3.12,1.0,Low,Not Sure
+P0439,29,Other,Unemployed,0,1,3,1,2,3,0,3,1,14,Moderate,5.51,2.31,5.74,Somewhat Regular,Moderate,4.03,3.37,Low,No
+P0440,35,Female,Student,0,1,0,3,1,1,2,3,3,14,Moderate,6.43,0.49,5.5,Somewhat Regular,Low,3.47,2.71,Very Low,Not Sure
+P0441,29,Female,Student,1,3,1,2,1,1,1,0,2,12,Moderate,6.04,2.96,8.79,Somewhat Regular,Moderate,2.98,2.0,Low,Not Sure
+P0442,35,Female,Employed,3,3,0,3,3,3,3,1,2,21,High,4.71,2.62,5.41,Very Irregular,Moderate,3.21,2.51,Moderate,No
+P0443,28,Female,Employed,2,1,0,3,3,1,2,0,2,14,Moderate,6.28,1.24,5.82,Very Irregular,Moderate,3.4,1.68,Very Low,Not Sure
+P0444,20,Female,Employed,2,1,0,1,1,1,1,3,3,13,Moderate,6.17,1.43,5.53,Somewhat Regular,Moderate,2.87,1.82,Moderate,No
+P0445,28,Male,Unemployed,1,1,1,3,0,2,0,3,0,11,Moderate,7.39,0.42,5.3,Somewhat Regular,High,-0.29,1.24,Low,Yes
+P0446,18,Female,Unemployed,3,3,1,0,0,3,1,0,3,14,Moderate,7.84,2.44,8.5,Very Irregular,Moderate,1.93,0.97,Low,Yes
+P0447,25,Female,Student,2,1,1,2,3,1,2,3,3,18,High,8.5,1.98,7.17,Very Irregular,High,2.58,2.13,Low,No
+P0448,26,Other,Unemployed,3,2,0,0,0,2,1,3,0,11,Moderate,5.96,0.82,5.31,Irregular,Moderate,2.47,3.26,High,Not Sure
+P0449,24,Other,Unemployed,3,3,3,2,2,2,3,3,0,21,High,5.25,1.62,6.26,Very Irregular,Moderate,3.19,2.54,Low,Not Sure
+P0450,30,Female,Student,0,0,2,2,3,0,2,2,3,14,Moderate,6.59,2.02,6.74,Somewhat Regular,High,1.19,1.3,High,Yes
+P0451,18,Other,Unemployed,3,0,3,0,1,3,1,3,3,17,High,6.35,0.79,7.52,Very Regular,High,2.8,2.19,Very Low,Yes
+P0452,38,Other,Student,0,2,3,0,3,0,3,2,1,14,Moderate,5.06,1.01,4.68,Very Regular,Moderate,1.96,1.56,Low,Not Sure
+P0453,39,Male,Student,3,2,1,3,3,3,0,2,3,20,High,7.98,0.94,6.98,Somewhat Regular,Low,3.39,2.79,Low,Not Sure
+P0454,19,Female,Employed,0,1,3,0,0,2,0,1,2,9,Moderate,8.4,1.79,6.34,Very Regular,High,1.69,0.98,High,Not Sure
+P0455,18,Female,Student,2,3,1,0,3,2,2,3,2,18,High,9.49,2.54,6.74,Very Regular,High,1.28,2.52,High,Yes
+P0456,25,Male,Unemployed,2,1,2,2,2,2,3,3,2,19,High,6.8,2.88,6.1,Irregular,High,0.78,1.94,Moderate,Yes
+P0457,32,Other,Unemployed,0,2,2,3,3,3,1,3,1,18,High,5.65,1.87,3.9,Very Irregular,Low,4.22,2.15,Very Low,Yes
+P0458,39,Other,Student,0,3,2,2,3,3,0,0,2,15,High,6.98,2.75,6.26,Somewhat Regular,Low,3.94,3.82,Moderate,No
+P0459,31,Female,Employed,1,3,3,3,3,2,0,3,2,20,High,8.71,1.65,5.98,Very Regular,Moderate,2.8,2.11,High,No
+P0460,27,Other,Student,1,1,2,3,3,2,0,3,0,15,High,6.28,0.97,7.23,Somewhat Regular,Moderate,2.65,1.14,Very Low,Not Sure
+P0461,25,Other,Student,1,2,2,2,3,1,0,0,1,12,Moderate,8.05,3.18,6.46,Very Regular,Moderate,0.93,2.16,High,No
+P0462,38,Other,Employed,3,2,3,3,1,2,3,3,1,21,High,7.23,2.24,4.86,Very Regular,High,2.06,1.58,Very Low,Not Sure
+P0463,18,Male,Student,0,0,2,1,0,2,0,3,2,10,Moderate,4.76,2.57,8.32,Very Irregular,Moderate,2.26,0.54,Moderate,Not Sure
+P0464,34,Male,Unemployed,2,0,0,0,1,2,2,3,2,12,Moderate,5.23,3.16,7.64,Very Regular,Low,2.63,1.67,Low,Not Sure
+P0465,21,Other,Employed,2,0,0,2,1,0,1,2,2,10,Moderate,2.41,2.18,6.49,Irregular,Low,3.68,0.63,Very Low,Not Sure
+P0466,36,Female,Unemployed,3,1,0,1,1,0,2,3,1,12,Moderate,6.98,2.63,5.79,Very Regular,Low,2.2,0.97,Moderate,Yes
+P0467,32,Male,Unemployed,3,3,0,2,3,3,3,0,2,19,High,4.14,2.66,5.46,Somewhat Regular,High,3.65,2.48,High,Yes
+P0468,32,Female,Student,2,2,3,1,2,3,1,1,3,18,High,4.49,1.96,6.57,Somewhat Regular,High,3.96,2.6,High,Not Sure
+P0469,39,Other,Employed,2,1,1,2,3,1,3,1,2,16,High,8.1,1.57,6.96,Very Irregular,High,2.51,2.24,Low,Not Sure
+P0470,29,Other,Student,1,2,1,1,2,2,3,3,0,15,High,7.24,0.49,5.03,Irregular,Low,2.65,0.26,Very Low,No
+P0471,22,Male,Student,3,1,1,1,3,3,2,1,1,16,High,9.74,0.59,7.36,Irregular,High,3.77,1.52,High,No
+P0472,19,Male,Unemployed,1,1,1,0,1,2,1,1,3,11,Moderate,6.4,2.32,7.02,Irregular,Moderate,0.83,1.3,High,Yes
+P0473,20,Female,Unemployed,1,1,1,2,2,0,3,0,3,13,Moderate,5.23,1.0,5.36,Very Irregular,Moderate,3.58,2.95,Low,Not Sure
+P0474,26,Other,Unemployed,2,0,2,0,3,1,3,3,2,16,High,8.0,0.65,4.09,Very Irregular,Low,3.88,1.32,Moderate,Yes
+P0475,20,Other,Student,2,3,3,0,3,0,3,1,1,16,High,5.76,1.27,5.5,Very Regular,Moderate,3.51,2.52,Low,No
+P0476,39,Other,Unemployed,2,2,2,2,2,3,1,3,3,20,High,6.7,2.91,8.5,Somewhat Regular,High,0.73,1.58,High,No
+P0477,39,Female,Student,3,3,0,2,2,3,0,1,2,16,High,5.39,2.24,7.97,Very Regular,Low,3.19,1.86,Moderate,No
+P0478,30,Female,Employed,2,0,1,1,0,2,3,3,0,12,Moderate,6.12,1.54,5.76,Very Regular,Low,0.8,2.58,Very Low,Yes
+P0479,30,Female,Employed,2,1,0,2,2,1,1,1,1,11,Moderate,6.48,2.19,5.92,Very Irregular,Low,2.48,3.64,Very Low,Yes
+P0480,18,Female,Unemployed,1,1,2,0,2,1,1,1,0,9,Moderate,5.9,1.45,7.67,Very Regular,High,1.41,1.05,Moderate,No
+P0481,33,Male,Employed,3,1,2,0,3,1,1,2,1,14,Moderate,6.52,2.54,5.33,Very Irregular,Moderate,2.62,3.09,Very Low,Not Sure
+P0482,30,Other,Student,3,3,0,2,1,1,0,2,1,13,Moderate,6.84,1.16,5.95,Somewhat Regular,High,1.96,0.72,High,Yes
+P0483,19,Male,Employed,0,2,3,1,3,2,2,0,3,16,High,7.86,0.71,5.3,Irregular,Moderate,1.84,3.38,High,Yes
+P0484,38,Male,Student,2,2,1,1,1,2,3,2,2,16,High,8.01,2.86,7.52,Very Irregular,Moderate,3.15,1.43,High,No
+P0485,24,Female,Student,0,0,2,1,3,2,2,2,1,13,Moderate,7.11,2.35,5.68,Irregular,Moderate,2.59,1.09,Low,Not Sure
+P0486,27,Other,Employed,1,3,3,1,0,0,2,1,3,14,Moderate,2.65,1.42,4.08,Somewhat Regular,Moderate,4.07,1.11,Very Low,Yes
+P0487,30,Female,Student,1,1,2,3,1,3,0,1,2,14,Moderate,5.92,1.79,7.3,Very Irregular,Moderate,2.96,2.07,High,No
+P0488,28,Female,Employed,0,1,1,2,1,1,1,1,2,10,Moderate,7.45,0.91,4.48,Very Irregular,High,1.3,3.24,Low,No
+P0489,25,Female,Unemployed,2,1,2,0,3,3,3,3,1,18,High,9.24,2.94,8.61,Somewhat Regular,Moderate,3.72,3.51,Moderate,Yes
+P0490,39,Female,Employed,3,3,3,0,1,0,1,2,2,15,High,7.71,0.98,5.98,Irregular,High,1.76,2.31,High,Not Sure
+P0491,31,Male,Employed,0,0,0,0,0,2,2,3,0,7,Moderate,7.48,2.83,7.49,Very Irregular,Moderate,3.51,1.27,High,No
+P0492,31,Male,Unemployed,1,0,0,0,2,0,2,1,1,7,Moderate,3.97,1.61,7.93,Somewhat Regular,High,3.64,2.39,Low,Not Sure
+P0493,35,Other,Student,2,1,3,1,0,3,2,3,3,18,High,6.09,1.84,6.76,Very Irregular,High,3.59,2.95,Low,No
+P0494,30,Female,Unemployed,1,0,0,3,2,1,2,3,3,15,High,4.58,1.21,5.61,Very Regular,Moderate,1.93,3.09,High,Yes
+P0495,32,Other,Employed,3,2,0,1,2,0,2,1,2,13,Moderate,3.8,1.42,6.13,Somewhat Regular,Moderate,2.92,0.82,Low,Not Sure
+P0496,37,Female,Employed,1,0,3,3,3,0,0,3,3,16,High,7.42,2.47,4.36,Very Regular,Moderate,5.2,4.97,High,Not Sure
+P0497,22,Female,Unemployed,3,2,1,3,2,0,3,0,0,14,Moderate,5.12,1.77,5.67,Very Irregular,High,2.21,1.88,Very Low,No
+P0498,19,Other,Unemployed,0,3,3,3,2,2,2,0,1,16,High,5.26,1.59,4.96,Very Regular,Low,1.65,2.33,Low,Not Sure
+P0499,31,Other,Employed,0,0,1,3,3,1,1,2,0,11,Moderate,7.21,1.04,6.67,Somewhat Regular,High,2.25,1.83,Very Low,Not Sure
+P0500,29,Other,Unemployed,0,2,1,2,3,2,0,0,1,11,Moderate,7.25,1.66,6.34,Very Irregular,Moderate,1.66,2.9,High,Yes
+P0501,21,Male,Student,1,0,1,0,0,0,1,1,0,4,Low,6.71,0.43,6.72,Irregular,Low,1.9,0.69,Low,No
+P0502,29,Female,Employed,2,3,2,1,2,2,1,1,1,15,High,7.04,1.55,6.68,Very Irregular,High,2.06,1.41,Low,No
+P0503,31,Male,Employed,0,3,3,0,3,3,1,3,0,16,High,5.71,1.56,7.01,Very Regular,Moderate,2.22,1.55,High,Yes
+P0504,19,Male,Unemployed,1,2,1,3,0,2,0,2,3,14,Moderate,6.07,2.71,7.18,Somewhat Regular,Moderate,2.02,2.96,Moderate,No
+P0505,30,Female,Student,1,0,1,1,3,1,3,3,2,15,High,8.45,1.18,5.16,Very Irregular,Moderate,2.75,0.56,High,Yes
+P0506,20,Female,Unemployed,1,0,1,3,0,1,2,3,1,12,Moderate,7.24,0.82,7.24,Very Irregular,Moderate,2.3,2.18,Very Low,No
+P0507,29,Male,Unemployed,1,0,2,1,1,2,2,0,3,12,Moderate,7.54,1.83,7.34,Very Regular,Low,3.84,2.43,Moderate,Not Sure
+P0508,36,Male,Unemployed,3,1,1,0,2,3,0,0,2,12,Moderate,6.41,1.31,6.99,Somewhat Regular,High,2.56,2.27,Low,Not Sure
+P0509,29,Male,Unemployed,3,0,1,3,0,0,0,1,0,8,Moderate,6.7,1.08,6.0,Somewhat Regular,Moderate,4.35,0.45,High,No
+P0510,33,Male,Employed,0,2,0,1,3,0,0,1,1,8,Moderate,5.71,2.8,6.21,Somewhat Regular,Low,2.17,4.54,High,No
+P0511,27,Male,Unemployed,0,2,1,0,1,1,1,1,1,8,Moderate,5.87,1.9,7.3,Somewhat Regular,Moderate,4.55,1.58,High,No
+P0512,35,Male,Unemployed,0,0,0,0,1,0,2,2,0,5,Moderate,4.09,0.99,5.59,Somewhat Regular,Low,2.45,2.15,Moderate,Not Sure
+P0513,19,Male,Unemployed,2,1,2,2,1,3,2,1,2,16,High,7.58,0.49,6.68,Very Regular,High,1.74,3.12,Low,No
+P0514,22,Female,Student,0,2,3,2,0,1,3,0,0,11,Moderate,4.66,0.61,5.66,Very Irregular,Low,3.45,3.18,Moderate,Not Sure
+P0515,31,Female,Unemployed,0,2,3,1,2,3,2,1,0,14,Moderate,6.28,1.89,7.25,Irregular,High,3.23,2.01,High,Not Sure
+P0516,31,Female,Unemployed,3,0,3,0,0,2,1,1,1,11,Moderate,5.8,2.58,5.82,Very Regular,Moderate,2.15,3.29,Moderate,No
+P0517,27,Other,Student,2,1,2,3,3,3,3,0,0,17,High,5.79,2.32,6.56,Irregular,High,3.21,2.43,Very Low,Not Sure
+P0518,20,Male,Employed,2,0,1,3,2,0,2,1,1,12,Moderate,6.14,1.63,6.13,Very Regular,Low,2.8,2.62,Moderate,Yes
+P0519,38,Male,Employed,1,0,3,0,0,0,3,2,0,9,Moderate,6.22,1.06,8.14,Somewhat Regular,High,2.47,0.76,High,No
+P0520,18,Other,Student,0,2,0,0,2,3,3,0,0,10,Moderate,5.93,1.52,7.06,Very Irregular,Moderate,2.69,1.35,Low,No
+P0521,30,Other,Unemployed,0,2,1,2,3,0,3,2,0,13,Moderate,8.71,1.42,6.49,Somewhat Regular,High,1.56,1.28,Low,No
+P0522,29,Female,Student,0,0,1,2,0,1,3,3,1,11,Moderate,6.25,2.02,6.08,Somewhat Regular,Moderate,2.94,1.39,High,Not Sure
+P0523,35,Male,Employed,0,3,2,3,1,2,3,0,2,16,High,5.21,0.87,6.91,Very Regular,Moderate,3.42,0.99,Low,Yes
+P0524,22,Female,Unemployed,3,2,3,2,3,1,1,0,2,17,High,3.96,2.05,7.26,Very Irregular,Moderate,0.64,1.94,High,No
+P0525,31,Other,Employed,0,3,1,2,0,2,3,0,1,12,Moderate,8.01,1.57,6.06,Very Irregular,Low,3.77,2.0,Very Low,Not Sure
+P0526,34,Male,Student,2,2,1,2,3,0,1,3,0,14,Moderate,3.26,1.49,5.9,Irregular,Low,2.59,2.46,Moderate,Yes
+P0527,34,Other,Employed,3,2,3,2,1,3,3,1,3,21,High,8.65,1.08,4.75,Somewhat Regular,Moderate,2.12,2.54,High,Not Sure
+P0528,37,Other,Student,0,1,0,3,0,0,1,2,3,10,Moderate,3.96,0.96,7.66,Very Regular,Moderate,1.11,2.3,Moderate,Not Sure
+P0529,19,Male,Unemployed,2,2,0,1,0,1,1,1,2,10,Moderate,7.98,0.8,7.13,Very Irregular,High,2.22,1.84,Low,No
+P0530,25,Male,Unemployed,3,3,1,3,3,0,2,1,2,18,High,6.52,2.44,5.9,Somewhat Regular,Moderate,1.19,2.73,Very Low,No
+P0531,26,Female,Employed,3,2,3,3,3,1,1,1,2,19,High,6.57,1.82,7.15,Very Regular,Moderate,2.57,2.73,Very Low,Yes
+P0532,36,Male,Unemployed,3,2,2,2,0,0,2,0,1,12,Moderate,7.72,1.12,5.41,Irregular,High,4.11,3.42,High,Yes
+P0533,39,Other,Student,1,1,2,2,1,2,2,3,3,17,High,7.18,1.47,6.67,Somewhat Regular,Low,1.87,2.9,Very Low,Not Sure
+P0534,28,Female,Unemployed,2,0,0,1,2,2,2,3,1,13,Moderate,5.11,2.3,6.34,Irregular,High,1.24,1.91,Low,No
+P0535,20,Other,Employed,0,0,1,1,0,3,2,0,3,10,Moderate,4.43,1.18,6.68,Irregular,High,3.48,3.22,Moderate,Not Sure
+P0536,34,Other,Student,3,2,1,3,1,3,1,0,3,17,High,5.32,1.3,7.12,Somewhat Regular,Moderate,3.84,3.72,Very Low,No
+P0537,19,Other,Student,3,2,2,2,1,1,3,0,1,15,High,5.86,2.15,6.45,Somewhat Regular,Low,2.33,3.0,Low,Not Sure
+P0538,39,Female,Student,1,2,3,0,1,3,2,1,1,14,Moderate,6.14,1.24,6.18,Very Irregular,Moderate,1.64,2.19,Low,Not Sure
+P0539,25,Other,Employed,3,2,3,0,0,0,1,1,3,13,Moderate,4.24,0.49,6.73,Very Irregular,Moderate,2.21,1.25,High,Yes
+P0540,24,Other,Student,3,2,1,0,1,1,3,1,1,13,Moderate,7.21,1.69,4.13,Very Irregular,High,2.47,2.15,Moderate,Not Sure
+P0541,29,Female,Employed,2,2,1,1,3,2,3,3,2,19,High,4.14,0.87,4.93,Very Irregular,Moderate,3.6,3.17,Very Low,Not Sure
+P0542,26,Male,Unemployed,3,2,1,0,3,0,1,0,3,13,Moderate,4.98,1.75,5.48,Very Irregular,High,2.33,2.74,Moderate,Yes
+P0543,25,Other,Employed,1,2,3,2,2,2,3,0,2,17,High,6.01,2.28,6.15,Somewhat Regular,Moderate,4.08,3.33,Low,No
+P0544,19,Female,Employed,0,2,1,0,0,1,1,3,2,10,Moderate,3.9,1.96,7.8,Irregular,Moderate,3.57,2.33,Low,Not Sure
+P0545,25,Female,Employed,0,2,3,2,0,2,3,0,1,13,Moderate,7.89,1.81,6.83,Very Regular,Low,2.58,1.02,Very Low,Not Sure
+P0546,20,Female,Student,1,2,2,0,1,3,1,0,2,12,Moderate,5.97,1.08,6.16,Very Regular,Low,1.66,3.22,High,No
+P0547,28,Male,Employed,3,3,2,2,2,0,1,1,3,17,High,3.59,1.09,6.59,Somewhat Regular,High,0.61,1.84,Low,Not Sure
+P0548,32,Female,Student,1,3,1,3,0,0,0,3,0,11,Moderate,7.81,2.0,8.09,Irregular,Low,2.33,2.12,Moderate,No
+P0549,36,Male,Employed,0,0,0,3,0,2,1,3,1,10,Moderate,4.16,2.4,7.28,Somewhat Regular,Low,2.88,0.54,High,Not Sure
+P0550,38,Female,Unemployed,1,1,2,3,3,0,3,1,3,17,High,5.63,2.08,6.85,Somewhat Regular,Moderate,3.16,1.64,Very Low,Not Sure
+P0551,23,Male,Student,2,2,3,3,3,2,1,0,2,18,High,5.19,2.63,5.81,Somewhat Regular,Moderate,4.39,2.99,Very Low,Yes
+P0552,19,Other,Student,0,0,2,2,3,0,3,3,0,13,Moderate,6.2,3.39,7.05,Very Irregular,Low,3.44,1.51,Very Low,Not Sure
+P0553,32,Female,Student,2,3,2,0,3,1,3,0,0,14,Moderate,7.04,0.71,6.59,Very Irregular,High,4.7,2.81,Low,No
+P0554,22,Male,Student,3,1,2,1,0,0,3,2,0,12,Moderate,8.66,2.23,6.69,Very Irregular,Low,2.66,3.85,Very Low,Yes
+P0555,30,Female,Employed,2,0,2,1,1,1,3,0,3,13,Moderate,7.54,2.51,4.28,Irregular,Low,2.63,3.27,High,Yes
+P0556,34,Other,Unemployed,3,2,1,0,1,3,3,0,3,16,High,6.32,1.54,6.94,Somewhat Regular,Low,2.93,0.31,Very Low,Not Sure
+P0557,26,Other,Student,3,1,2,3,3,3,2,0,2,19,High,6.4,0.88,6.79,Very Irregular,Moderate,2.75,2.48,Low,Not Sure
+P0558,29,Other,Student,2,3,2,1,1,3,1,0,1,14,Moderate,8.81,1.12,7.77,Very Irregular,High,2.66,3.7,High,Yes
+P0559,37,Male,Student,1,2,2,1,3,0,3,0,3,15,High,8.82,2.63,6.73,Somewhat Regular,Low,2.62,2.63,High,No
+P0560,39,Female,Employed,3,3,2,3,2,1,2,0,1,17,High,7.73,0.48,5.59,Somewhat Regular,Low,2.3,2.48,Moderate,Not Sure
+P0561,34,Male,Student,1,1,2,1,3,2,1,0,0,11,Moderate,5.35,1.47,5.17,Irregular,High,1.72,2.36,Very Low,Not Sure
+P0562,27,Female,Student,2,3,3,1,0,3,2,2,1,17,High,6.89,2.67,6.65,Somewhat Regular,High,3.1,2.43,High,No
+P0563,32,Other,Student,1,3,0,0,3,3,1,3,0,14,Moderate,7.6,2.82,5.14,Somewhat Regular,Moderate,0.97,2.14,High,Yes
+P0564,28,Male,Employed,2,3,0,0,3,0,1,2,1,12,Moderate,3.57,1.13,5.02,Very Regular,High,3.56,1.96,Very Low,No
+P0565,24,Female,Student,2,1,0,0,1,2,0,2,1,9,Moderate,3.98,2.21,4.84,Very Irregular,High,2.91,2.57,High,No
+P0566,33,Other,Unemployed,0,3,1,2,2,2,0,3,1,14,Moderate,6.07,2.08,7.03,Somewhat Regular,Moderate,2.01,1.54,Very Low,Yes
+P0567,19,Other,Student,0,3,2,0,0,0,0,3,3,11,Moderate,5.46,2.4,6.64,Very Regular,Moderate,3.75,2.85,Low,Yes
+P0568,28,Male,Employed,2,1,2,3,1,1,0,0,0,10,Moderate,4.23,1.69,4.41,Irregular,High,1.35,2.76,High,No
+P0569,27,Other,Employed,3,2,0,0,0,0,3,0,3,11,Moderate,6.76,0.15,6.68,Very Regular,High,3.5,0.56,Low,No
+P0570,39,Male,Employed,0,3,3,1,3,0,0,1,0,11,Moderate,8.59,2.53,5.66,Very Regular,High,0.6,4.08,Low,Yes
+P0571,21,Other,Employed,0,0,1,3,1,3,3,3,0,14,Moderate,7.96,0.14,5.93,Very Irregular,High,2.91,1.28,Very Low,No
+P0572,30,Other,Employed,0,0,1,0,2,0,3,1,3,10,Moderate,8.6,2.23,8.03,Somewhat Regular,Low,0.08,1.62,Low,Yes
+P0573,31,Female,Student,3,3,3,0,2,0,3,0,0,14,Moderate,3.84,2.68,6.41,Very Irregular,High,4.09,2.92,Very Low,No
+P0574,28,Other,Unemployed,2,2,2,1,0,0,0,1,0,8,Moderate,5.89,1.63,6.09,Somewhat Regular,Low,1.89,0.7,Very Low,Not Sure
+P0575,25,Male,Unemployed,2,3,3,1,0,1,1,2,1,14,Moderate,5.85,1.55,7.55,Very Regular,Low,1.9,3.49,High,No
+P0576,18,Other,Unemployed,0,1,0,1,3,3,0,3,2,13,Moderate,5.92,1.01,6.52,Irregular,Low,4.23,1.84,Moderate,Yes
+P0577,20,Other,Employed,2,2,1,2,3,2,2,2,0,16,High,7.83,2.14,5.23,Very Regular,Low,2.26,1.83,Moderate,No
+P0578,24,Female,Unemployed,1,1,1,0,2,0,1,3,0,9,Moderate,3.68,1.1,7.77,Very Regular,Moderate,1.81,2.93,Very Low,No
+P0579,21,Female,Unemployed,2,3,1,3,1,0,1,1,0,12,Moderate,7.51,1.87,8.34,Irregular,Low,3.89,3.17,High,Not Sure
+P0580,19,Male,Employed,3,1,1,0,0,2,2,2,2,13,Moderate,6.4,3.92,7.98,Somewhat Regular,Moderate,1.05,1.37,Very Low,Not Sure
+P0581,28,Other,Unemployed,2,3,1,2,1,1,3,2,1,16,High,7.02,2.89,7.02,Very Regular,Low,4.02,3.42,Very Low,Yes
+P0582,19,Male,Student,0,1,3,2,2,3,2,0,1,14,Moderate,5.61,2.76,6.13,Very Regular,Moderate,2.78,2.96,Moderate,No
+P0583,21,Male,Student,3,3,0,3,0,0,3,1,1,14,Moderate,6.83,1.91,5.48,Very Regular,High,2.53,0.7,High,Yes
+P0584,22,Female,Student,3,0,2,0,2,2,1,0,0,10,Moderate,5.48,0.86,6.69,Very Irregular,High,1.84,1.74,Moderate,No
+P0585,18,Male,Unemployed,1,1,2,3,3,1,2,0,1,14,Moderate,4.92,1.34,6.95,Irregular,Low,2.79,2.38,Very Low,Yes
+P0586,24,Male,Unemployed,0,1,0,1,0,0,3,2,2,9,Moderate,4.45,1.49,5.54,Very Regular,Moderate,1.24,2.27,Very Low,No
+P0587,29,Female,Employed,0,2,0,1,2,1,2,0,3,11,Moderate,6.32,1.03,5.8,Irregular,Low,2.7,2.09,High,Yes
+P0588,31,Female,Student,3,3,0,2,3,1,3,3,0,18,High,7.48,2.17,7.01,Irregular,High,2.65,1.2,Moderate,Not Sure
+P0589,25,Other,Student,1,1,0,0,2,1,1,1,2,9,Moderate,5.49,-0.31,4.55,Very Irregular,Moderate,2.48,2.56,High,Yes
+P0590,26,Other,Unemployed,1,3,1,3,0,1,2,0,1,12,Moderate,6.76,0.94,4.8,Somewhat Regular,Low,2.25,0.14,Very Low,No
+P0591,34,Male,Student,3,2,2,3,0,2,0,0,1,13,Moderate,6.01,0.45,7.71,Irregular,High,2.35,1.66,Very Low,No
+P0592,38,Male,Unemployed,0,2,1,0,1,1,2,0,2,9,Moderate,8.28,1.36,7.99,Very Irregular,High,2.09,1.45,Moderate,Yes
+P0593,39,Male,Unemployed,1,0,2,0,1,2,3,1,1,11,Moderate,7.01,1.1,5.86,Somewhat Regular,Moderate,1.93,1.14,High,Yes
+P0594,33,Male,Unemployed,1,0,2,0,3,3,1,1,0,11,Moderate,8.63,1.23,5.42,Irregular,Low,1.47,2.43,Very Low,Yes
+P0595,37,Other,Employed,3,0,1,0,1,1,1,1,1,9,Moderate,3.9,-0.29,5.85,Irregular,Moderate,2.61,2.05,Very Low,Not Sure
+P0596,34,Male,Unemployed,1,2,0,2,3,1,0,3,2,14,Moderate,6.62,1.2,6.5,Somewhat Regular,High,2.76,1.39,High,Yes
+P0597,32,Other,Unemployed,0,0,1,1,3,0,3,0,2,10,Moderate,8.43,1.1,5.25,Very Regular,Moderate,1.31,1.82,Low,Yes
+P0598,23,Female,Employed,3,1,3,1,3,0,0,0,0,11,Moderate,3.37,1.6,5.65,Irregular,Moderate,2.49,3.28,Moderate,No
+P0599,28,Female,Employed,0,0,2,0,1,3,2,1,1,10,Moderate,4.5,1.47,6.69,Somewhat Regular,Low,2.26,0.27,Low,Yes
+P0600,36,Other,Student,3,3,3,2,2,2,3,2,1,21,High,11.25,2.6,5.34,Somewhat Regular,Low,2.99,3.73,Low,No
+P0601,38,Female,Employed,3,0,3,2,3,2,0,2,1,16,High,5.98,0.9,6.42,Very Irregular,Low,3.57,2.98,Moderate,Yes
+P0602,33,Female,Employed,2,0,3,3,3,3,2,0,0,16,High,6.39,3.16,5.09,Very Irregular,Moderate,3.78,3.7,Very Low,Yes
+P0603,23,Male,Unemployed,1,0,2,3,1,2,3,2,0,14,Moderate,3.43,1.48,6.29,Irregular,High,4.29,3.16,Very Low,Yes
+P0604,18,Female,Student,1,0,3,3,2,3,0,0,3,15,High,5.63,1.45,5.75,Very Regular,High,2.58,3.89,Low,No
+P0605,25,Female,Unemployed,3,2,0,3,3,3,1,3,2,20,High,8.78,2.83,6.04,Very Regular,High,3.6,3.03,Moderate,No
+P0606,32,Male,Student,1,2,3,1,2,1,1,0,0,11,Moderate,5.92,1.25,8.53,Very Irregular,Moderate,2.98,0.77,Low,Yes
+P0607,23,Female,Student,1,3,0,1,3,2,0,2,1,13,Moderate,7.07,2.14,7.09,Somewhat Regular,Low,2.71,2.45,Very Low,Yes
+P0608,22,Male,Student,2,0,0,3,3,1,3,0,3,15,High,6.93,1.3,7.37,Somewhat Regular,Moderate,1.89,2.74,Moderate,Not Sure
+P0609,21,Other,Unemployed,1,2,0,1,2,1,0,2,2,11,Moderate,7.19,0.6,4.85,Very Regular,High,1.23,1.13,Moderate,Yes
+P0610,32,Male,Student,2,2,0,2,3,1,3,0,2,15,High,8.83,2.99,7.04,Somewhat Regular,High,2.51,2.59,High,Yes
+P0611,21,Male,Employed,0,1,2,2,0,0,3,2,0,10,Moderate,6.27,1.24,7.26,Very Regular,Low,1.16,3.11,High,Yes
+P0612,35,Male,Unemployed,1,3,3,0,2,3,0,3,0,15,High,6.29,3.06,5.07,Very Irregular,High,4.2,1.51,High,No
+P0613,34,Male,Employed,1,0,0,0,2,3,0,0,0,6,Moderate,5.56,1.92,5.65,Very Irregular,Low,2.27,1.18,Moderate,Yes
+P0614,18,Male,Employed,1,1,0,3,2,1,2,3,3,16,High,7.72,1.44,6.54,Irregular,Moderate,2.37,2.39,Low,Yes
+P0615,19,Other,Unemployed,1,2,1,2,2,0,3,3,2,16,High,5.6,1.95,4.85,Somewhat Regular,High,2.82,4.2,Moderate,No
+P0616,34,Female,Unemployed,1,0,2,2,3,3,3,2,0,16,High,8.13,3.55,5.97,Very Irregular,Low,1.28,3.25,Very Low,No
+P0617,26,Female,Student,2,3,0,3,3,3,0,0,2,16,High,8.29,0.41,6.61,Very Irregular,Low,2.52,2.41,Low,Not Sure
+P0618,37,Other,Student,2,2,2,1,0,1,1,3,0,12,Moderate,6.89,2.9,5.78,Very Irregular,High,2.43,2.87,Moderate,No
+P0619,32,Other,Employed,0,3,0,3,3,3,2,0,2,16,High,7.59,3.21,7.24,Irregular,High,2.89,1.79,Moderate,No
+P0620,33,Female,Student,1,0,0,1,1,2,1,2,1,9,Moderate,2.07,3.05,6.09,Very Regular,Moderate,2.4,0.7,Low,Yes
+P0621,27,Female,Student,2,0,0,0,2,2,0,0,1,7,Moderate,4.59,2.04,6.8,Very Irregular,High,2.65,1.07,Moderate,Not Sure
+P0622,30,Male,Student,0,0,3,3,2,0,3,2,0,13,Moderate,7.36,1.39,6.89,Very Regular,Low,2.72,3.47,Low,No
+P0623,32,Other,Unemployed,1,3,0,0,3,1,1,1,1,11,Moderate,8.27,2.3,6.27,Very Regular,Low,2.63,1.92,High,No
+P0624,30,Male,Student,2,3,2,2,0,2,1,2,3,17,High,8.39,2.05,6.14,Somewhat Regular,High,2.14,3.01,Moderate,Not Sure
+P0625,27,Other,Employed,0,0,3,3,0,0,2,0,3,11,Moderate,3.5,2.62,8.95,Very Regular,High,2.6,1.41,Moderate,Not Sure
+P0626,39,Other,Student,0,0,3,2,2,2,3,0,0,12,Moderate,10.44,1.48,6.91,Somewhat Regular,Moderate,2.66,0.98,Moderate,Yes
+P0627,31,Female,Student,0,0,2,1,0,2,2,2,2,11,Moderate,7.98,1.15,5.18,Very Regular,Low,2.38,2.12,Low,Not Sure
+P0628,23,Male,Student,0,3,2,2,0,0,0,3,2,12,Moderate,3.58,1.17,6.02,Very Irregular,Low,3.23,1.79,Moderate,Not Sure
+P0629,26,Male,Student,1,3,0,1,3,1,2,3,0,14,Moderate,5.51,1.64,4.28,Irregular,High,3.25,4.55,Low,No
+P0630,31,Male,Student,1,0,2,1,3,1,3,3,2,16,High,5.77,3.09,7.03,Somewhat Regular,High,5.56,0.75,Low,Yes
+P0631,18,Other,Employed,3,3,0,0,0,2,1,1,1,11,Moderate,4.1,2.85,5.79,Very Regular,Moderate,3.63,1.69,High,Not Sure
+P0632,39,Male,Employed,3,2,1,0,2,2,1,3,1,15,High,8.36,2.5,6.12,Irregular,Moderate,2.96,1.69,Low,Yes
+P0633,38,Other,Employed,3,0,0,0,2,0,1,0,1,7,Moderate,7.66,1.44,6.73,Very Irregular,High,2.97,2.14,Moderate,Yes
+P0634,23,Other,Unemployed,0,0,0,0,3,1,1,2,0,7,Moderate,5.55,0.32,7.96,Irregular,Low,0.92,2.75,Low,No
+P0635,34,Female,Unemployed,0,3,3,3,1,2,2,0,1,15,High,6.54,2.16,5.27,Irregular,Low,1.35,2.36,Low,Not Sure
+P0636,18,Male,Unemployed,3,3,0,1,3,0,1,0,3,14,Moderate,5.92,1.39,6.48,Very Irregular,High,2.13,1.58,Very Low,Yes
+P0637,29,Other,Employed,1,2,3,3,0,2,0,2,0,13,Moderate,6.34,0.72,5.88,Somewhat Regular,High,3.68,1.12,Very Low,No
+P0638,20,Male,Employed,0,1,1,0,2,3,2,2,0,11,Moderate,5.79,1.73,5.92,Very Regular,Low,3.11,1.22,Moderate,No
+P0639,18,Male,Unemployed,3,3,2,0,1,0,3,1,0,13,Moderate,10.35,1.47,7.45,Very Regular,High,4.09,2.37,Moderate,No
+P0640,34,Male,Employed,2,3,2,1,3,0,2,2,0,15,High,5.24,1.77,8.25,Somewhat Regular,Low,3.3,2.7,Very Low,No
+P0641,19,Female,Student,1,1,2,2,0,1,3,2,0,12,Moderate,8.15,0.89,7.78,Very Regular,Low,4.66,2.88,High,No
+P0642,34,Other,Employed,2,1,1,2,0,0,1,0,2,9,Moderate,6.79,1.37,5.36,Somewhat Regular,Moderate,5.11,2.09,High,No
+P0643,21,Female,Unemployed,2,1,3,2,0,0,2,1,3,14,Moderate,3.97,1.42,6.24,Very Irregular,Low,4.01,0.33,High,Not Sure
+P0644,34,Other,Unemployed,3,3,1,3,3,2,0,3,1,19,High,7.52,1.19,6.46,Somewhat Regular,Low,4.25,5.05,High,Yes
+P0645,29,Male,Employed,2,1,2,1,3,2,1,0,2,14,Moderate,5.98,0.67,6.68,Very Regular,Moderate,3.05,3.34,Moderate,Yes
+P0646,18,Male,Employed,3,0,0,1,1,3,0,1,1,10,Moderate,6.1,0.41,7.73,Somewhat Regular,Moderate,2.99,3.77,Low,Not Sure
+P0647,21,Male,Unemployed,0,0,2,2,0,1,0,1,2,8,Moderate,5.75,3.03,6.32,Very Regular,Moderate,1.87,2.25,High,Not Sure
+P0648,31,Male,Employed,3,3,0,0,1,0,3,2,2,14,Moderate,8.02,0.44,7.38,Somewhat Regular,High,2.74,3.29,High,Yes
+P0649,31,Male,Student,0,0,3,1,3,1,0,2,0,10,Moderate,3.02,0.96,6.32,Irregular,Low,1.4,-0.56,Low,No
+P0650,18,Other,Unemployed,1,0,3,0,3,2,0,3,2,14,Moderate,6.25,1.51,5.41,Irregular,High,3.5,0.33,Moderate,No
+P0651,35,Male,Student,3,3,0,2,0,0,0,3,0,11,Moderate,6.86,3.14,6.61,Very Regular,Moderate,1.49,1.93,High,Yes
+P0652,39,Male,Employed,3,1,0,0,3,3,3,0,0,13,Moderate,7.21,2.59,6.75,Very Regular,Moderate,1.68,1.35,Very Low,No
+P0653,27,Other,Unemployed,0,2,3,2,1,0,1,2,3,14,Moderate,5.14,2.76,7.66,Very Irregular,Low,4.49,4.29,Very Low,Yes
+P0654,24,Male,Student,3,2,0,2,0,2,1,2,0,12,Moderate,7.26,1.99,7.23,Irregular,Low,2.0,3.27,High,Yes
+P0655,27,Female,Employed,0,0,0,0,0,1,2,1,3,7,Moderate,6.75,0.93,6.91,Very Irregular,Moderate,2.47,3.58,Moderate,Yes
+P0656,25,Other,Unemployed,0,2,0,0,0,0,2,0,3,7,Moderate,4.24,2.44,6.78,Very Irregular,Low,3.2,3.07,Moderate,No
+P0657,24,Female,Student,0,2,2,0,3,2,3,3,3,18,High,8.22,1.17,7.57,Very Irregular,Low,3.77,1.68,Moderate,No
+P0658,21,Female,Employed,2,3,0,2,3,2,3,0,3,18,High,4.31,3.03,5.27,Somewhat Regular,Moderate,4.09,3.42,Very Low,Yes
+P0659,29,Other,Unemployed,0,0,3,3,1,0,2,0,0,9,Moderate,6.89,1.38,6.07,Very Regular,Low,3.62,2.71,Moderate,Not Sure
+P0660,25,Female,Unemployed,2,1,1,0,2,0,2,1,0,9,Moderate,4.59,0.63,7.11,Somewhat Regular,High,0.95,3.09,Very Low,No
+P0661,24,Other,Employed,1,2,0,2,3,0,3,1,1,13,Moderate,5.82,0.38,7.49,Very Irregular,High,1.81,2.09,Low,No
+P0662,25,Female,Student,3,0,3,0,2,2,0,0,1,11,Moderate,6.77,2.18,6.76,Very Irregular,High,3.46,1.92,Very Low,Not Sure
+P0663,24,Other,Unemployed,2,3,0,0,3,1,1,2,0,12,Moderate,5.72,1.69,7.47,Somewhat Regular,Low,1.09,0.13,High,Yes
+P0664,19,Male,Student,2,3,0,0,1,3,0,2,1,12,Moderate,5.32,1.11,5.38,Somewhat Regular,Low,1.89,2.25,Very Low,No
+P0665,38,Male,Unemployed,2,1,2,0,3,2,0,0,3,13,Moderate,7.73,2.62,8.55,Very Irregular,Low,2.29,2.26,Low,Not Sure
+P0666,22,Female,Employed,0,0,1,0,1,0,2,3,0,7,Moderate,5.08,1.95,7.04,Very Regular,Low,3.53,1.16,High,Not Sure
+P0667,30,Female,Unemployed,2,1,3,2,1,3,3,1,1,17,High,6.77,2.43,5.78,Irregular,Moderate,5.24,2.53,High,Yes
+P0668,28,Other,Unemployed,2,0,3,1,3,0,0,1,3,13,Moderate,5.89,1.38,6.88,Very Irregular,Low,3.31,2.29,High,Yes
+P0669,26,Male,Unemployed,2,2,0,1,3,3,0,3,0,14,Moderate,4.4,2.77,7.85,Very Regular,Low,3.02,3.42,Very Low,No
+P0670,38,Other,Employed,0,1,2,3,1,1,1,3,2,14,Moderate,6.6,1.59,7.07,Very Irregular,Moderate,2.73,2.5,High,Not Sure
+P0671,36,Female,Unemployed,0,3,3,1,3,0,1,3,1,15,High,6.26,1.05,6.32,Very Irregular,Low,3.49,1.11,Low,No
+P0672,25,Female,Student,0,1,1,3,2,1,0,0,1,9,Moderate,6.03,1.95,5.45,Very Irregular,Low,2.63,1.22,High,No
+P0673,22,Other,Student,3,1,2,3,2,3,1,0,1,16,High,7.4,1.22,7.24,Very Regular,High,1.53,2.78,High,No
+P0674,26,Female,Student,2,3,1,0,1,0,1,1,0,9,Moderate,4.59,1.82,5.32,Irregular,Moderate,2.25,1.18,Moderate,No
+P0675,24,Female,Unemployed,0,1,3,1,2,2,0,0,2,11,Moderate,5.52,-0.11,6.01,Very Regular,Low,3.32,2.75,Low,No
+P0676,31,Other,Employed,2,0,0,1,1,1,3,3,0,11,Moderate,8.11,0.45,7.35,Irregular,Moderate,1.78,0.46,High,Not Sure
+P0677,31,Other,Student,1,0,0,0,0,2,2,0,3,8,Moderate,5.98,1.81,5.62,Somewhat Regular,Moderate,2.97,2.74,Low,No
+P0678,22,Other,Employed,0,1,0,2,3,0,0,2,3,11,Moderate,5.14,1.58,4.8,Irregular,Low,2.09,2.66,Low,Yes
+P0679,24,Female,Unemployed,0,2,3,1,0,0,3,2,0,11,Moderate,8.79,2.55,5.88,Very Irregular,Low,2.75,2.51,Very Low,Yes
+P0680,19,Male,Student,2,2,1,1,0,2,1,3,2,14,Moderate,6.6,1.49,5.0,Very Regular,Low,1.22,0.52,Very Low,No
+P0681,37,Male,Employed,1,2,3,1,1,0,2,2,0,12,Moderate,6.04,2.59,4.95,Somewhat Regular,Moderate,2.11,1.46,Moderate,No
+P0682,32,Other,Employed,0,3,3,2,1,3,1,2,0,15,High,7.1,2.54,6.92,Very Regular,High,2.71,0.36,Very Low,Yes
+P0683,19,Female,Employed,1,3,2,0,3,0,2,2,2,15,High,5.67,0.87,8.54,Very Irregular,Low,4.62,1.09,High,Not Sure
+P0684,21,Other,Employed,0,3,1,1,1,2,1,0,3,12,Moderate,8.57,1.2,6.96,Irregular,Low,0.99,1.17,Moderate,Not Sure
+P0685,33,Other,Student,1,3,0,0,2,2,2,3,0,13,Moderate,8.1,1.62,6.26,Irregular,Low,4.53,2.67,High,Yes
+P0686,27,Male,Unemployed,0,2,2,2,2,0,2,3,0,13,Moderate,5.81,1.28,7.63,Somewhat Regular,Low,3.69,2.13,Low,Not Sure
+P0687,23,Male,Employed,2,2,2,0,2,0,0,3,0,11,Moderate,4.97,1.84,6.23,Very Irregular,High,1.61,3.38,Very Low,Not Sure
+P0688,39,Male,Employed,3,2,2,0,3,2,0,1,2,15,High,7.89,1.13,6.49,Somewhat Regular,High,3.01,1.78,Low,Not Sure
+P0689,30,Male,Student,3,3,2,1,0,2,2,2,0,15,High,3.79,2.62,4.02,Irregular,High,2.35,3.01,Moderate,Not Sure
+P0690,34,Other,Unemployed,0,0,3,3,0,1,3,1,1,12,Moderate,6.6,1.47,6.71,Irregular,Moderate,2.0,2.24,High,No
+P0691,20,Female,Employed,1,2,3,1,2,3,2,1,2,17,High,5.54,1.54,8.54,Somewhat Regular,Moderate,2.08,2.27,Moderate,Not Sure
+P0692,22,Other,Unemployed,2,1,2,0,1,2,2,1,2,13,Moderate,5.62,1.46,7.02,Very Irregular,High,2.37,2.1,Very Low,Yes
+P0693,30,Other,Unemployed,2,1,2,0,0,2,2,2,3,14,Moderate,6.14,0.14,7.22,Irregular,High,2.22,3.21,Moderate,No
+P0694,26,Other,Student,1,1,0,3,2,1,1,0,1,10,Moderate,4.08,0.8,5.82,Very Irregular,Low,3.38,1.9,Moderate,No
+P0695,37,Other,Employed,0,1,1,1,2,0,0,1,3,9,Moderate,2.98,2.23,5.74,Irregular,Moderate,3.31,1.88,Moderate,Yes
+P0696,31,Male,Unemployed,3,0,0,3,2,3,1,3,2,17,High,6.74,2.61,5.53,Somewhat Regular,Low,3.79,1.39,High,Not Sure
+P0697,27,Female,Unemployed,1,2,2,3,3,1,0,0,3,15,High,5.29,2.3,4.69,Somewhat Regular,High,4.17,2.6,Very Low,Not Sure
+P0698,38,Female,Employed,1,2,1,3,2,1,1,2,3,16,High,7.01,1.75,5.55,Irregular,Moderate,3.07,1.85,High,No
+P0699,22,Other,Student,2,2,2,0,3,3,2,1,0,15,High,7.01,1.24,6.5,Somewhat Regular,Moderate,3.43,1.61,Low,Not Sure
+P0700,25,Other,Unemployed,3,0,0,1,3,2,2,3,3,17,High,8.55,0.26,4.87,Very Irregular,High,2.34,2.91,Moderate,Not Sure
+P0701,19,Female,Student,2,1,0,1,1,0,2,2,0,9,Moderate,6.84,0.31,4.74,Somewhat Regular,Moderate,3.63,-0.03,Very Low,No
+P0702,34,Male,Unemployed,3,0,1,3,0,3,3,3,2,18,High,6.58,1.76,7.2,Irregular,High,3.26,2.46,Low,Not Sure
+P0703,28,Female,Unemployed,3,0,2,3,1,0,3,1,2,15,High,8.39,2.02,4.98,Very Regular,Low,3.19,3.95,Moderate,Yes
+P0704,38,Other,Employed,1,1,1,3,1,2,1,0,1,11,Moderate,6.05,0.28,5.79,Very Irregular,Moderate,1.65,2.86,Moderate,No
+P0705,33,Other,Employed,1,0,3,1,2,0,0,2,2,11,Moderate,4.16,2.29,7.19,Very Irregular,Low,1.84,2.41,High,Yes
+P0706,22,Other,Unemployed,3,3,1,0,2,3,0,0,0,12,Moderate,6.32,0.16,6.73,Very Regular,Moderate,2.96,1.42,Low,Not Sure
+P0707,36,Male,Unemployed,1,1,1,0,0,1,1,2,2,9,Moderate,5.55,1.89,6.78,Very Irregular,High,0.8,2.52,Moderate,No
+P0708,21,Male,Student,1,2,1,3,2,0,2,1,0,12,Moderate,4.91,1.1,3.78,Somewhat Regular,Low,1.12,0.76,Moderate,No
+P0709,36,Other,Employed,1,2,0,2,0,3,3,1,1,13,Moderate,3.45,1.55,4.97,Somewhat Regular,Moderate,3.55,2.93,Low,Yes
+P0710,38,Female,Employed,3,0,2,2,3,0,2,2,0,14,Moderate,5.05,1.35,5.7,Somewhat Regular,Moderate,2.73,2.94,Very Low,Yes
+P0711,27,Female,Employed,2,3,1,0,1,0,1,1,1,10,Moderate,3.74,0.7,5.32,Somewhat Regular,Low,3.5,1.3,Low,No
+P0712,23,Male,Student,2,2,0,1,0,0,1,0,1,7,Moderate,5.89,0.9,6.28,Very Irregular,High,2.2,1.5,High,No
+P0713,27,Female,Employed,3,3,2,3,3,0,0,3,3,20,High,7.19,0.1,4.17,Very Irregular,Low,3.62,3.54,Very Low,Not Sure
+P0714,39,Male,Unemployed,1,2,0,2,2,0,1,2,0,10,Moderate,4.63,0.79,6.17,Irregular,Low,3.2,4.5,Moderate,Not Sure
+P0715,32,Male,Student,3,0,2,0,0,0,3,1,3,12,Moderate,8.93,1.95,6.94,Very Regular,High,3.82,2.57,Low,Yes
+P0716,35,Other,Employed,3,3,1,0,1,1,2,0,2,13,Moderate,5.13,2.0,4.98,Irregular,Low,3.72,1.89,Very Low,No
+P0717,25,Other,Unemployed,0,3,2,0,3,3,0,3,1,15,High,7.35,1.19,7.56,Irregular,Low,1.17,1.21,Very Low,Yes
+P0718,31,Female,Employed,2,2,0,1,0,0,3,3,1,12,Moderate,8.14,-0.56,6.74,Very Irregular,High,2.25,2.03,Moderate,No
+P0719,30,Other,Student,3,0,2,3,2,2,1,1,2,16,High,6.3,2.73,6.7,Irregular,Moderate,2.81,1.85,Moderate,Yes
+P0720,22,Male,Employed,0,0,3,3,1,2,0,3,1,13,Moderate,6.6,1.1,7.17,Very Regular,Low,1.7,2.85,Low,Not Sure
+P0721,29,Male,Student,0,3,1,1,2,2,3,2,2,16,High,1.72,2.76,4.65,Very Regular,High,4.37,3.04,Low,Yes
+P0722,29,Female,Unemployed,2,2,3,2,0,1,3,3,0,16,High,5.99,1.23,6.1,Very Regular,Moderate,2.66,2.42,Moderate,Not Sure
+P0723,29,Other,Student,0,3,3,2,2,1,1,1,0,13,Moderate,5.85,2.73,6.16,Very Regular,High,4.12,2.13,Very Low,Not Sure
+P0724,35,Male,Student,0,0,1,2,3,3,0,2,3,14,Moderate,7.46,2.1,6.27,Very Regular,Moderate,3.43,2.79,High,No
+P0725,29,Male,Unemployed,3,2,1,3,0,1,3,2,3,18,High,7.04,2.82,5.49,Irregular,Moderate,1.89,2.65,Low,Yes
+P0726,23,Other,Unemployed,2,0,0,3,3,0,3,3,3,17,High,4.01,2.69,3.3,Very Regular,Moderate,2.54,3.89,High,Not Sure
+P0727,34,Male,Unemployed,1,2,1,2,0,0,3,2,1,12,Moderate,7.42,3.43,4.55,Irregular,High,2.32,2.1,Low,No
+P0728,24,Male,Unemployed,3,2,1,0,0,3,2,2,3,16,High,3.9,1.99,7.44,Very Regular,Moderate,4.02,3.32,Very Low,Yes
+P0729,30,Female,Student,0,3,2,1,2,0,1,3,2,14,Moderate,5.32,2.14,6.42,Somewhat Regular,Moderate,2.01,0.86,Low,No
+P0730,33,Other,Employed,2,0,0,1,1,2,0,0,1,7,Moderate,4.42,2.18,6.2,Irregular,Low,2.11,2.98,Very Low,Not Sure
+P0731,35,Female,Student,2,3,1,2,0,3,2,3,2,18,High,7.9,2.51,5.18,Very Irregular,Moderate,2.4,1.71,Low,Yes
+P0732,37,Male,Unemployed,1,3,3,1,2,1,2,1,3,17,High,8.78,2.58,5.08,Very Regular,Low,0.15,2.26,High,Yes
+P0733,30,Male,Unemployed,2,3,3,2,2,3,2,2,1,20,High,4.5,2.24,4.46,Very Regular,High,3.57,1.69,Very Low,No
+P0734,32,Other,Student,3,0,2,2,2,0,0,3,3,15,High,5.09,1.11,6.88,Very Irregular,Moderate,2.34,2.72,Moderate,No
+P0735,30,Male,Student,2,3,0,1,2,1,2,0,1,12,Moderate,5.75,1.09,6.82,Somewhat Regular,Low,2.7,2.36,Moderate,No
+P0736,39,Other,Employed,0,1,0,2,2,0,1,0,0,6,Moderate,6.32,1.15,5.76,Very Irregular,High,2.23,1.77,Very Low,Yes
+P0737,22,Male,Student,2,3,0,0,1,1,3,3,3,16,High,6.73,1.85,5.23,Somewhat Regular,High,1.57,1.22,Low,No
+P0738,18,Female,Employed,0,2,3,2,2,2,1,3,1,16,High,6.27,2.8,7.28,Irregular,High,2.47,2.55,Very Low,No
+P0739,39,Female,Student,3,0,0,0,2,1,2,3,2,13,Moderate,4.62,2.58,6.27,Very Regular,Moderate,3.45,1.99,High,No
+P0740,38,Female,Employed,0,1,2,1,1,3,3,0,2,13,Moderate,8.08,2.2,7.42,Very Irregular,Moderate,3.38,2.39,Low,Yes
+P0741,38,Male,Unemployed,2,0,2,0,0,0,1,2,3,10,Moderate,7.57,1.44,8.24,Very Regular,Low,3.36,2.57,Very Low,No
+P0742,24,Other,Employed,3,1,3,3,2,1,2,3,0,18,High,8.43,2.1,5.4,Very Irregular,Low,1.18,0.82,High,No
+P0743,29,Other,Student,3,2,1,2,3,2,2,0,0,15,High,7.72,2.02,9.19,Somewhat Regular,Moderate,1.72,0.54,High,Yes
+P0744,33,Female,Employed,0,1,1,3,2,1,1,2,1,12,Moderate,5.61,1.76,5.9,Very Regular,Low,2.11,1.07,Moderate,Not Sure
+P0745,37,Female,Student,3,1,1,2,2,0,3,3,2,17,High,3.79,-0.06,6.5,Somewhat Regular,High,3.34,4.41,Moderate,Not Sure
+P0746,36,Other,Unemployed,3,2,1,3,3,2,0,2,0,16,High,6.84,3.17,8.67,Very Regular,Moderate,3.09,0.15,Low,No
+P0747,20,Female,Unemployed,2,1,0,2,1,2,1,1,3,13,Moderate,2.97,0.72,5.25,Very Irregular,Low,3.47,3.02,Very Low,Yes
+P0748,32,Other,Student,2,0,0,0,1,1,2,1,1,8,Moderate,6.29,1.41,5.26,Very Irregular,Moderate,0.88,2.61,Low,Yes
+P0749,24,Female,Employed,3,2,1,2,1,1,0,0,1,11,Moderate,3.67,0.99,6.99,Somewhat Regular,Moderate,3.1,4.3,Moderate,Yes
+P0750,32,Other,Student,1,2,3,0,3,0,3,0,0,12,Moderate,4.84,-0.28,8.07,Very Irregular,Moderate,1.74,1.97,Low,Yes
+P0751,29,Female,Employed,0,2,3,2,1,3,3,1,1,16,High,5.34,0.11,4.78,Very Irregular,Low,2.98,0.34,High,No
+P0752,38,Female,Student,3,2,3,1,1,2,1,0,2,15,High,4.28,1.68,6.28,Very Irregular,High,5.71,3.05,Very Low,Yes
+P0753,20,Female,Employed,2,2,3,2,1,2,3,0,3,18,High,8.04,1.73,5.84,Very Regular,High,3.83,1.63,Very Low,Yes
+P0754,39,Other,Unemployed,1,2,0,2,1,0,3,1,3,13,Moderate,8.89,1.17,6.18,Irregular,High,2.49,2.96,Low,Not Sure
+P0755,34,Other,Employed,3,0,1,1,3,1,0,0,1,10,Moderate,6.57,1.69,6.9,Irregular,Moderate,3.34,2.59,Very Low,Yes
+P0756,29,Female,Employed,3,1,1,3,0,2,1,2,3,16,High,4.78,2.15,5.93,Very Irregular,High,3.34,3.25,Moderate,Not Sure
+P0757,19,Female,Student,2,3,0,1,3,3,3,2,0,17,High,5.03,2.37,5.26,Very Regular,High,4.7,2.72,Low,Yes
+P0758,25,Female,Employed,3,3,3,0,2,1,3,1,0,16,High,5.98,1.64,5.2,Irregular,High,2.0,1.8,Moderate,Not Sure
+P0759,31,Male,Student,1,2,1,0,2,3,3,0,3,15,High,6.32,3.04,6.43,Somewhat Regular,Moderate,3.12,1.48,Low,Not Sure
+P0760,34,Other,Unemployed,1,3,2,1,1,2,3,1,3,17,High,7.64,1.42,7.71,Very Irregular,Low,2.31,2.68,Moderate,Not Sure
+P0761,37,Male,Student,1,2,1,0,0,0,0,0,1,5,Moderate,6.84,1.32,6.72,Very Regular,Moderate,3.46,1.79,Low,No
+P0762,23,Male,Unemployed,0,3,1,0,0,1,3,1,3,12,Moderate,5.39,2.48,5.88,Irregular,Low,1.68,1.61,High,Yes
+P0763,36,Other,Unemployed,2,3,2,0,1,2,2,0,2,14,Moderate,7.47,1.94,5.8,Very Regular,Moderate,4.41,1.17,High,Not Sure
+P0764,32,Other,Unemployed,1,0,1,0,0,2,3,3,1,11,Moderate,5.69,1.75,6.44,Somewhat Regular,Moderate,3.43,2.53,Very Low,Not Sure
+P0765,39,Other,Student,1,0,0,3,1,3,3,0,2,13,Moderate,7.96,1.4,7.64,Very Irregular,High,1.37,2.83,High,Not Sure
+P0766,21,Male,Unemployed,2,3,3,2,2,0,3,1,1,17,High,9.17,1.56,6.85,Somewhat Regular,High,1.52,3.52,Low,Yes
+P0767,23,Female,Unemployed,3,0,0,3,2,3,3,2,1,17,High,7.74,1.86,6.15,Irregular,High,2.26,3.12,High,No
+P0768,34,Other,Unemployed,0,3,0,1,3,1,0,0,1,9,Moderate,6.13,1.61,7.09,Somewhat Regular,Moderate,1.87,1.87,High,No
+P0769,22,Female,Employed,0,1,0,2,0,0,3,3,1,10,Moderate,5.56,1.19,6.62,Somewhat Regular,Low,1.81,2.11,High,Not Sure
+P0770,25,Other,Unemployed,1,1,3,1,2,1,0,2,3,14,Moderate,9.96,3.25,7.15,Irregular,High,3.35,1.97,Moderate,Not Sure
+P0771,30,Other,Unemployed,3,2,1,0,2,2,1,2,2,15,High,6.08,1.21,5.0,Somewhat Regular,Low,2.19,0.85,Low,Not Sure
+P0772,18,Other,Employed,0,1,2,3,3,1,3,1,1,15,High,9.64,0.89,7.37,Irregular,High,2.47,1.75,Low,Not Sure
+P0773,19,Other,Student,2,2,3,3,3,2,3,0,2,20,High,8.18,0.58,6.71,Irregular,High,2.77,3.21,Very Low,No
+P0774,36,Other,Employed,3,2,1,1,0,3,3,0,1,14,Moderate,7.57,2.05,6.63,Very Irregular,High,4.94,-0.53,Moderate,No
+P0775,29,Male,Unemployed,0,0,2,3,3,0,2,2,0,12,Moderate,6.25,3.34,7.51,Very Regular,Low,2.9,1.3,High,Yes
+P0776,30,Male,Unemployed,3,2,1,1,2,1,3,1,1,15,High,6.06,0.93,7.69,Very Regular,Low,2.41,1.54,Moderate,Yes
+P0777,25,Female,Unemployed,0,2,2,1,0,2,0,3,1,11,Moderate,3.66,2.0,4.54,Irregular,Low,3.32,3.17,Very Low,Not Sure
+P0778,22,Female,Student,3,1,1,2,1,3,2,2,2,17,High,4.65,1.63,6.12,Very Regular,Moderate,4.8,3.04,High,Yes
+P0779,38,Other,Unemployed,0,2,3,1,1,2,2,0,3,14,Moderate,4.07,2.23,6.17,Somewhat Regular,High,1.91,0.27,High,Yes
+P0780,39,Other,Unemployed,0,2,3,3,0,2,0,0,3,13,Moderate,7.22,2.29,8.41,Irregular,High,3.21,1.99,Very Low,No
+P0781,35,Female,Employed,0,0,2,0,0,2,3,0,3,10,Moderate,3.19,1.33,5.24,Irregular,High,2.56,3.77,Very Low,Yes
+P0782,32,Other,Employed,1,1,0,3,0,0,3,0,2,10,Moderate,6.3,1.75,6.04,Somewhat Regular,High,2.42,2.78,High,Yes
+P0783,36,Other,Unemployed,0,0,0,1,2,1,2,1,0,7,Moderate,3.31,1.96,7.67,Irregular,High,2.99,1.94,Low,Not Sure
+P0784,36,Male,Employed,1,2,0,1,3,3,1,1,2,14,Moderate,4.9,0.93,5.48,Very Irregular,Low,2.32,2.25,Very Low,Yes
+P0785,27,Male,Unemployed,0,1,3,1,0,1,0,3,1,10,Moderate,3.24,0.13,8.29,Very Regular,Moderate,1.6,5.09,Very Low,No
+P0786,21,Female,Unemployed,1,1,3,1,3,2,2,1,1,15,High,3.79,2.33,4.48,Irregular,Low,2.03,1.56,Low,Not Sure
+P0787,20,Female,Student,2,2,0,3,3,2,3,3,3,21,High,7.74,1.71,6.26,Irregular,Moderate,2.89,3.52,Low,Yes
+P0788,34,Male,Employed,2,0,0,2,1,2,3,3,2,15,High,5.95,1.9,8.05,Very Regular,High,3.77,3.11,Moderate,No
+P0789,30,Other,Unemployed,1,2,0,2,1,0,0,0,0,6,Moderate,6.12,1.62,6.58,Irregular,Low,1.86,2.78,Moderate,Not Sure
+P0790,38,Male,Student,0,3,3,0,2,3,2,1,3,17,High,7.1,1.95,7.7,Very Regular,High,2.33,1.25,Low,No
+P0791,34,Other,Unemployed,0,0,1,0,0,0,3,2,1,7,Moderate,9.46,2.74,4.67,Very Irregular,Low,1.91,4.28,Moderate,Yes
+P0792,36,Male,Unemployed,2,3,2,3,2,1,0,1,1,15,High,5.64,2.35,6.55,Irregular,Moderate,3.2,2.15,Moderate,No
+P0793,27,Male,Unemployed,3,2,1,3,2,3,0,0,3,17,High,6.91,3.19,7.03,Very Irregular,High,2.12,4.33,Very Low,Yes
+P0794,35,Other,Employed,3,0,2,1,3,3,1,1,1,15,High,7.46,1.76,6.81,Very Irregular,Low,2.16,3.81,Low,Yes
+P0795,26,Other,Employed,0,0,1,1,2,0,1,3,1,9,Moderate,5.88,0.55,6.49,Very Irregular,Low,2.4,2.11,High,No
+P0796,34,Other,Unemployed,3,0,1,0,1,1,1,2,1,10,Moderate,6.99,1.82,6.38,Irregular,Low,2.82,2.29,Moderate,Not Sure
+P0797,28,Other,Employed,3,0,0,0,3,2,1,0,3,12,Moderate,4.92,1.09,7.1,Very Irregular,Low,1.97,1.98,Moderate,Not Sure
+P0798,18,Male,Employed,0,2,0,1,1,0,3,1,0,8,Moderate,5.82,2.17,7.54,Very Regular,Low,2.84,2.3,Low,Not Sure
+P0799,29,Other,Student,1,3,3,2,1,0,1,2,2,15,High,9.66,0.78,7.0,Very Regular,Low,2.71,2.25,Low,Not Sure
+P0800,39,Female,Student,2,2,3,1,0,1,0,0,0,9,Moderate,4.68,0.12,7.43,Somewhat Regular,High,0.85,1.64,High,Not Sure
+P0801,39,Male,Unemployed,0,3,1,1,2,3,0,0,3,13,Moderate,6.01,2.68,9.91,Somewhat Regular,Low,2.9,0.52,High,Not Sure
+P0802,27,Female,Student,2,2,3,3,2,3,2,1,3,21,High,6.58,1.99,5.93,Very Regular,Low,3.04,1.6,Very Low,Yes
+P0803,38,Female,Unemployed,3,3,1,0,1,2,2,1,3,16,High,7.9,1.79,3.25,Very Regular,High,2.16,1.67,Low,No
+P0804,25,Female,Employed,3,3,2,2,2,3,0,2,1,18,High,5.33,0.98,5.33,Very Irregular,High,3.4,1.8,High,No
+P0805,23,Female,Student,3,2,0,2,2,2,1,2,3,17,High,5.12,1.07,5.7,Very Irregular,High,2.09,2.57,Very Low,Not Sure
+P0806,33,Male,Unemployed,2,1,0,3,0,3,3,3,3,18,High,3.88,1.93,7.08,Very Regular,High,3.34,2.85,Very Low,Not Sure
+P0807,33,Male,Employed,1,0,3,0,1,3,3,3,1,15,High,8.33,2.17,6.22,Very Regular,Moderate,3.24,0.69,Moderate,Not Sure
+P0808,39,Male,Employed,0,0,0,1,1,2,3,3,3,13,Moderate,9.42,1.0,5.12,Very Irregular,Moderate,2.61,3.74,High,Not Sure
+P0809,39,Male,Employed,0,2,2,3,3,0,1,3,2,16,High,7.94,1.9,6.03,Somewhat Regular,High,5.31,1.02,Low,Yes
+P0810,39,Other,Employed,3,1,0,1,2,2,1,0,3,13,Moderate,5.19,1.04,7.01,Irregular,High,3.71,1.59,Low,No
+P0811,32,Other,Unemployed,2,3,0,2,2,0,3,0,0,12,Moderate,7.04,0.62,8.38,Irregular,Low,2.16,3.31,Low,Yes
+P0812,20,Male,Student,1,3,2,2,3,3,0,0,0,14,Moderate,6.62,0.49,4.62,Very Irregular,High,1.21,2.53,Very Low,No
+P0813,18,Male,Unemployed,1,3,0,1,0,3,2,3,1,14,Moderate,7.06,2.37,7.58,Irregular,Low,2.78,0.89,High,Not Sure
+P0814,36,Other,Student,1,2,1,1,0,3,1,3,3,15,High,5.98,1.25,6.82,Somewhat Regular,Low,2.64,2.07,Low,Not Sure
+P0815,28,Female,Student,2,1,2,1,0,3,2,0,2,13,Moderate,7.31,0.28,6.98,Very Regular,Low,0.41,1.87,Very Low,Not Sure
+P0816,24,Female,Unemployed,0,0,1,0,2,2,0,2,3,10,Moderate,3.44,1.48,6.25,Very Regular,Moderate,2.07,1.99,Very Low,No
+P0817,27,Male,Student,2,2,2,3,2,0,2,1,0,14,Moderate,4.26,1.31,4.89,Very Irregular,Moderate,2.86,0.97,Moderate,Yes
+P0818,37,Other,Unemployed,0,0,1,2,0,3,0,0,2,8,Moderate,5.85,0.98,7.0,Somewhat Regular,Low,2.92,0.62,Moderate,Not Sure
+P0819,34,Male,Student,0,1,0,0,3,2,0,3,3,12,Moderate,8.06,1.4,5.94,Irregular,Moderate,3.08,1.04,High,No
+P0820,34,Other,Unemployed,3,0,1,0,3,3,3,1,1,15,High,8.03,1.09,6.79,Irregular,High,2.5,1.87,Low,Not Sure
+P0821,37,Other,Employed,0,2,3,0,3,1,1,0,1,11,Moderate,5.29,0.03,5.44,Irregular,Moderate,2.91,2.39,Low,Yes
+P0822,27,Female,Student,0,2,0,2,0,0,2,1,1,8,Moderate,5.36,0.89,8.58,Somewhat Regular,High,0.65,-0.31,High,No
+P0823,34,Female,Student,0,1,2,0,3,0,0,0,2,8,Moderate,7.52,0.66,7.45,Irregular,Moderate,0.73,0.72,High,No
+P0824,18,Female,Employed,0,1,0,1,2,2,3,3,1,13,Moderate,8.78,3.47,6.4,Very Irregular,High,3.7,1.13,Very Low,Yes
+P0825,30,Other,Unemployed,1,3,2,1,0,0,2,1,1,11,Moderate,6.0,0.92,5.65,Very Regular,Moderate,2.78,2.68,Low,Not Sure
+P0826,32,Male,Employed,2,1,1,0,1,2,0,3,2,12,Moderate,6.3,2.33,5.85,Very Regular,High,1.9,1.33,Very Low,Yes
+P0827,33,Other,Unemployed,1,0,1,1,3,1,0,3,2,12,Moderate,6.46,1.96,6.33,Very Regular,High,1.81,3.12,High,Not Sure
+P0828,33,Male,Student,0,2,2,0,1,2,0,2,3,12,Moderate,5.59,0.6,6.77,Irregular,High,1.31,0.8,High,Not Sure
+P0829,29,Male,Employed,1,1,3,2,0,2,2,1,1,13,Moderate,7.21,1.62,7.14,Very Irregular,Low,4.0,3.21,Moderate,Yes
+P0830,27,Female,Unemployed,3,1,1,0,1,0,1,2,3,12,Moderate,6.91,1.77,5.93,Very Regular,Moderate,0.34,2.74,Moderate,Not Sure
+P0831,29,Male,Unemployed,1,0,1,1,3,3,0,2,2,13,Moderate,5.0,1.48,4.82,Somewhat Regular,High,1.52,3.12,Low,Not Sure
+P0832,27,Male,Employed,2,1,1,0,3,1,2,0,2,12,Moderate,7.51,1.19,6.89,Somewhat Regular,Low,0.87,0.98,Low,Not Sure
+P0833,25,Other,Employed,0,1,1,3,1,3,1,0,1,11,Moderate,5.0,0.43,4.3,Irregular,Low,2.52,1.49,Low,No
+P0834,26,Male,Student,3,2,3,0,1,1,2,0,0,12,Moderate,4.06,2.12,6.96,Irregular,Moderate,1.15,2.07,Low,Yes
+P0835,25,Other,Student,0,0,3,0,3,2,2,2,0,12,Moderate,6.89,2.23,5.58,Irregular,Moderate,2.08,1.96,High,No
+P0836,32,Male,Student,2,3,0,0,0,2,3,2,2,14,Moderate,7.56,2.5,6.55,Irregular,Low,2.57,1.69,Moderate,Not Sure
+P0837,36,Female,Unemployed,3,0,1,2,1,2,0,2,1,12,Moderate,6.13,1.33,6.39,Somewhat Regular,Moderate,2.18,0.07,High,No
+P0838,29,Other,Unemployed,2,1,1,0,2,3,2,0,0,11,Moderate,6.12,0.5,6.84,Very Regular,High,1.75,1.55,Moderate,No
+P0839,31,Male,Unemployed,3,1,2,0,3,1,2,1,0,13,Moderate,7.1,0.73,6.6,Very Irregular,Moderate,3.95,1.29,Moderate,No
+P0840,26,Female,Unemployed,3,1,0,1,1,0,3,2,0,11,Moderate,4.77,2.32,7.15,Very Regular,High,4.4,1.63,Low,No
+P0841,30,Male,Student,2,1,1,0,3,3,1,2,3,16,High,6.62,1.19,6.3,Very Regular,High,0.73,2.52,Moderate,Yes
+P0842,35,Male,Student,3,1,2,2,0,1,3,0,2,14,Moderate,8.35,0.06,5.12,Somewhat Regular,Moderate,2.46,3.35,Very Low,Not Sure
+P0843,20,Male,Employed,2,3,3,3,2,2,0,3,2,20,High,5.99,2.53,6.89,Irregular,High,3.64,1.47,Very Low,No
+P0844,31,Other,Employed,3,0,1,1,3,0,1,1,1,11,Moderate,5.37,1.21,7.08,Very Irregular,Low,2.44,0.5,Low,Not Sure
+P0845,22,Female,Student,1,0,2,3,2,3,0,2,3,16,High,6.28,3.03,7.19,Somewhat Regular,Low,3.7,1.8,Low,Not Sure
+P0846,23,Other,Student,3,3,3,3,2,2,2,3,3,24,High,8.21,2.76,6.61,Somewhat Regular,High,4.81,3.6,Very Low,Not Sure
+P0847,22,Male,Student,0,2,2,1,2,3,1,3,3,17,High,7.37,2.53,7.04,Somewhat Regular,Moderate,1.74,1.69,Low,Not Sure
+P0848,30,Female,Unemployed,0,2,3,0,1,3,1,2,1,13,Moderate,7.79,1.07,7.05,Very Regular,High,1.74,1.34,Moderate,Yes
+P0849,18,Male,Employed,0,3,0,0,0,0,2,2,0,7,Moderate,5.33,1.62,7.95,Very Irregular,Moderate,3.02,1.14,Low,Yes
+P0850,38,Female,Unemployed,2,3,2,2,2,1,3,1,2,18,High,8.57,1.83,5.64,Somewhat Regular,High,2.82,1.86,Low,Not Sure
+P0851,35,Other,Unemployed,3,0,3,0,2,3,3,0,0,14,Moderate,6.53,1.59,5.81,Irregular,Low,2.79,4.05,Moderate,No
+P0852,18,Other,Unemployed,3,0,0,2,2,3,0,1,0,11,Moderate,5.94,1.27,6.17,Very Regular,Low,3.19,3.93,High,No
+P0853,27,Male,Student,2,2,2,1,0,3,1,2,0,13,Moderate,7.52,1.07,6.4,Very Regular,Low,2.78,1.19,High,Yes
+P0854,21,Other,Student,1,3,2,3,0,1,0,1,1,12,Moderate,9.68,1.58,4.98,Somewhat Regular,Moderate,2.48,3.56,Very Low,Not Sure
+P0855,29,Other,Student,0,3,0,3,1,3,2,2,3,17,High,6.26,2.21,6.97,Very Regular,Moderate,3.45,3.39,Low,Not Sure
+P0856,29,Other,Student,3,0,0,0,0,3,2,2,0,10,Moderate,4.47,3.27,6.56,Very Irregular,High,3.57,2.22,High,No
+P0857,23,Male,Unemployed,0,1,1,3,2,0,2,1,0,10,Moderate,6.11,2.45,5.16,Very Irregular,Low,2.18,2.14,High,No
+P0858,36,Female,Unemployed,1,3,1,1,3,0,2,0,3,14,Moderate,3.65,2.84,5.48,Very Regular,Moderate,0.6,3.69,Low,No
+P0859,19,Female,Student,1,2,1,0,3,3,2,3,0,15,High,6.68,1.87,5.67,Very Regular,Moderate,1.85,1.8,High,No
+P0860,35,Male,Student,2,3,1,3,3,3,0,1,0,16,High,6.95,2.55,6.71,Very Regular,High,1.78,1.93,Very Low,Not Sure
+P0861,38,Male,Employed,1,0,3,1,2,1,0,1,3,12,Moderate,7.16,1.38,6.62,Somewhat Regular,High,1.78,2.8,Moderate,No
+P0862,39,Female,Student,3,0,3,2,2,1,3,3,0,17,High,6.58,2.07,7.14,Somewhat Regular,Moderate,3.5,4.66,Moderate,No
+P0863,20,Other,Employed,3,3,1,2,0,0,3,2,3,17,High,5.72,1.59,8.15,Irregular,High,2.54,2.71,Moderate,Not Sure
+P0864,34,Female,Student,3,0,3,3,3,3,0,3,3,21,High,7.91,1.4,4.77,Very Irregular,High,3.14,0.79,High,Yes
+P0865,19,Female,Unemployed,0,2,1,1,2,2,1,3,1,13,Moderate,5.61,0.84,7.21,Very Irregular,Moderate,3.46,0.99,Moderate,Not Sure
+P0866,30,Female,Unemployed,1,0,2,1,1,1,3,1,3,13,Moderate,7.39,3.02,6.87,Very Irregular,High,2.95,1.69,Low,Not Sure
+P0867,22,Male,Unemployed,1,2,1,2,2,1,2,2,0,13,Moderate,4.32,1.46,7.64,Somewhat Regular,Moderate,2.59,2.29,Low,Yes
+P0868,21,Male,Unemployed,3,3,2,3,1,2,0,2,1,17,High,7.41,0.33,6.78,Very Irregular,Moderate,2.64,3.67,Very Low,Yes
+P0869,34,Female,Unemployed,1,2,0,1,3,0,0,1,3,11,Moderate,5.29,2.94,7.27,Very Regular,Low,1.45,1.3,Low,No
+P0870,33,Other,Employed,1,2,2,2,2,1,0,1,0,11,Moderate,6.95,1.14,6.3,Very Regular,Low,3.33,3.06,Moderate,Yes
+P0871,34,Female,Student,3,1,2,1,2,2,2,3,1,17,High,3.74,3.2,6.24,Very Regular,High,3.27,2.18,High,No
+P0872,33,Other,Unemployed,0,0,2,3,2,2,1,3,0,13,Moderate,6.35,2.01,6.35,Irregular,High,3.27,2.31,Very Low,Yes
+P0873,36,Other,Employed,2,0,0,3,1,0,3,1,0,10,Moderate,7.36,0.32,5.48,Very Irregular,Low,2.42,1.77,Low,Not Sure
+P0874,36,Other,Employed,3,0,3,0,3,2,0,2,0,13,Moderate,6.2,0.75,6.39,Somewhat Regular,Low,1.59,1.61,Low,Not Sure
+P0875,39,Male,Unemployed,1,2,0,0,0,1,3,2,0,9,Moderate,8.23,2.12,4.96,Very Regular,Moderate,2.16,2.31,Low,Not Sure
+P0876,20,Male,Student,2,2,2,0,0,1,1,1,1,10,Moderate,6.83,0.83,6.13,Very Regular,Moderate,4.75,2.39,High,No
+P0877,24,Other,Employed,2,2,0,1,1,3,0,3,2,14,Moderate,7.81,2.32,6.02,Very Irregular,High,2.65,1.59,Low,Not Sure
+P0878,34,Male,Unemployed,3,3,2,3,3,3,3,0,2,22,High,7.45,1.78,7.03,Very Regular,Low,4.7,3.24,Moderate,Not Sure
+P0879,34,Other,Unemployed,3,0,1,3,2,1,3,0,2,15,High,8.4,0.94,5.52,Irregular,Moderate,1.9,0.24,Moderate,Yes
+P0880,18,Other,Student,1,0,0,2,1,2,2,2,0,10,Moderate,6.2,1.69,5.66,Very Irregular,Moderate,2.72,1.65,Very Low,No
+P0881,19,Male,Employed,0,3,2,1,3,2,2,2,0,15,High,6.8,1.58,4.88,Very Regular,High,2.45,2.11,Very Low,Not Sure
+P0882,26,Female,Employed,3,3,3,0,1,3,3,1,3,20,High,5.58,1.85,5.59,Very Regular,High,3.47,2.26,Moderate,Not Sure
+P0883,22,Other,Employed,3,0,0,3,1,3,3,1,2,16,High,6.81,1.92,4.88,Very Irregular,Moderate,2.72,1.48,High,Yes
+P0884,25,Female,Employed,3,0,3,3,1,3,2,0,0,15,High,1.39,1.91,7.48,Very Irregular,High,2.23,4.59,Very Low,No
+P0885,33,Male,Employed,1,2,3,2,0,3,2,0,1,14,Moderate,1.69,1.59,5.16,Very Regular,Moderate,2.76,0.57,Low,Not Sure
+P0886,32,Other,Student,2,0,2,1,2,1,2,3,1,14,Moderate,6.52,2.43,7.46,Irregular,Moderate,0.36,1.58,Moderate,Not Sure
+P0887,24,Other,Student,1,3,2,3,2,2,2,3,3,21,High,6.8,1.9,4.51,Irregular,Low,4.0,3.5,Moderate,Yes
+P0888,36,Female,Unemployed,2,2,1,2,2,2,3,3,2,19,High,8.08,1.22,5.57,Irregular,Low,3.56,1.82,Low,No
+P0889,24,Female,Employed,2,3,0,0,3,2,0,1,2,13,Moderate,6.57,0.86,6.46,Somewhat Regular,High,2.8,0.65,Moderate,Yes
+P0890,18,Other,Unemployed,0,1,2,2,1,2,0,3,0,11,Moderate,7.59,3.0,6.85,Somewhat Regular,Moderate,1.95,2.62,Low,Yes
+P0891,29,Other,Student,3,3,0,0,3,2,2,2,2,17,High,7.24,2.92,5.45,Irregular,Low,3.99,1.82,Low,Yes
+P0892,29,Male,Unemployed,1,0,2,3,2,3,2,1,0,14,Moderate,7.57,2.23,6.15,Irregular,Low,2.73,2.03,Very Low,Yes
+P0893,39,Male,Unemployed,1,2,2,2,0,3,0,2,3,15,High,7.15,1.88,3.85,Very Irregular,High,2.07,1.77,Very Low,Not Sure
+P0894,27,Male,Employed,2,0,1,0,0,2,3,1,2,11,Moderate,3.29,2.44,6.86,Irregular,High,1.59,0.12,Moderate,No
+P0895,32,Other,Employed,2,0,1,3,0,0,0,0,3,9,Moderate,4.57,1.32,5.54,Very Irregular,Low,2.79,1.72,Moderate,No
+P0896,30,Male,Unemployed,2,3,1,1,0,2,2,3,0,14,Moderate,6.42,1.36,6.17,Somewhat Regular,Low,2.5,2.37,High,No
+P0897,23,Other,Student,1,1,0,1,0,1,2,3,2,11,Moderate,5.69,2.02,6.73,Irregular,Moderate,4.38,0.52,Low,No
+P0898,18,Male,Unemployed,2,0,1,0,0,1,1,3,0,8,Moderate,5.62,1.77,4.77,Very Irregular,Moderate,3.22,0.39,Very Low,Yes
+P0899,30,Other,Student,3,1,1,2,2,3,2,0,1,15,High,5.41,0.48,7.52,Very Irregular,High,2.58,5.46,Very Low,No
+P0900,18,Female,Unemployed,2,3,2,1,3,0,3,0,2,16,High,5.38,3.01,7.41,Irregular,Low,2.22,2.76,Moderate,Yes
+P0901,24,Female,Employed,1,1,3,2,2,2,3,0,0,14,Moderate,5.51,0.14,5.0,Irregular,Moderate,1.46,1.94,Low,No
+P0902,18,Female,Student,1,0,2,2,3,2,2,2,2,16,High,6.92,1.84,4.87,Very Irregular,High,3.36,2.93,Moderate,No
+P0903,34,Female,Employed,2,3,1,3,1,0,2,0,2,14,Moderate,5.93,1.49,8.4,Very Irregular,Low,3.3,1.56,Low,Not Sure
+P0904,27,Other,Student,2,0,0,3,3,3,3,3,3,20,High,7.1,1.57,5.2,Very Regular,High,2.6,2.05,Moderate,Yes
+P0905,19,Other,Employed,2,2,1,2,3,1,2,1,3,17,High,7.3,1.47,5.47,Very Irregular,Low,3.59,2.65,Low,Not Sure
+P0906,21,Male,Employed,0,1,3,1,2,2,3,2,1,15,High,6.28,1.57,4.92,Very Regular,Low,1.1,3.22,High,No
+P0907,26,Male,Unemployed,1,1,0,3,2,2,2,1,3,15,High,6.12,1.95,6.48,Irregular,Moderate,2.08,3.15,Moderate,No
+P0908,31,Other,Unemployed,3,3,2,2,1,2,3,2,0,18,High,6.71,2.74,6.89,Very Regular,Moderate,3.81,1.41,Very Low,Not Sure
+P0909,31,Male,Student,0,2,0,1,1,3,2,2,0,11,Moderate,5.57,2.17,5.44,Somewhat Regular,Moderate,1.62,2.3,High,Not Sure
+P0910,30,Male,Employed,0,2,0,0,1,0,0,3,2,8,Moderate,4.16,2.94,6.8,Irregular,Moderate,4.41,0.86,Moderate,No
+P0911,31,Other,Unemployed,3,0,2,1,2,1,2,1,0,12,Moderate,6.18,-0.05,5.56,Irregular,Moderate,3.44,1.32,Very Low,No
+P0912,34,Male,Employed,2,3,1,3,1,3,1,0,1,15,High,6.26,2.1,7.55,Somewhat Regular,High,1.74,3.34,Low,No
+P0913,19,Female,Employed,0,1,3,2,2,1,0,3,2,14,Moderate,6.48,1.11,6.92,Very Irregular,High,3.06,1.61,High,Yes
+P0914,34,Female,Unemployed,2,0,0,2,2,0,0,0,3,9,Moderate,6.18,2.33,6.73,Irregular,Moderate,2.67,2.14,Low,Yes
+P0915,29,Other,Employed,2,0,1,0,1,0,3,1,3,11,Moderate,3.96,3.08,5.81,Very Irregular,High,2.28,1.15,High,Yes
+P0916,23,Male,Student,3,2,3,3,0,3,0,0,1,15,High,10.55,2.19,6.14,Irregular,Low,2.34,2.99,Moderate,No
+P0917,30,Other,Employed,2,2,1,3,2,1,2,2,2,17,High,6.8,3.18,5.99,Irregular,High,2.61,2.41,High,No
+P0918,26,Female,Employed,2,2,0,3,1,3,3,1,1,16,High,6.41,1.42,7.01,Very Irregular,Moderate,3.52,2.04,Low,Yes
+P0919,31,Male,Student,2,3,3,1,3,3,1,3,2,21,High,7.23,2.04,8.53,Somewhat Regular,High,1.72,0.56,Moderate,Not Sure
+P0920,34,Other,Unemployed,0,1,2,3,2,2,1,1,3,15,High,7.0,0.74,8.0,Very Regular,Low,3.36,1.83,Low,No
+P0921,39,Male,Student,3,1,3,3,1,1,3,3,0,18,High,4.93,0.96,5.95,Very Regular,Moderate,3.65,3.47,Very Low,Yes
+P0922,32,Female,Unemployed,2,2,2,0,0,0,2,3,3,14,Moderate,4.53,0.64,5.83,Very Regular,Low,2.47,2.2,Moderate,Not Sure
+P0923,25,Male,Student,3,3,3,2,2,1,0,3,1,18,High,4.61,2.0,8.75,Very Irregular,Moderate,4.09,1.57,Low,Yes
+P0924,22,Other,Employed,1,3,3,3,0,0,1,2,2,15,High,7.58,1.08,7.15,Very Irregular,High,3.68,2.42,Low,Yes
+P0925,25,Other,Student,0,3,1,3,1,1,1,0,3,13,Moderate,6.96,1.8,6.68,Very Regular,Low,2.96,0.19,Moderate,No
+P0926,37,Female,Employed,3,3,2,1,3,1,0,1,1,15,High,8.23,1.25,6.21,Irregular,High,2.6,3.26,High,Yes
+P0927,30,Other,Unemployed,2,0,2,3,1,3,1,0,1,13,Moderate,5.34,1.16,6.8,Somewhat Regular,High,2.97,0.95,High,Not Sure
+P0928,24,Other,Unemployed,1,0,0,2,0,2,3,1,0,9,Moderate,6.56,0.03,6.02,Very Irregular,High,1.68,1.87,Moderate,No
+P0929,35,Female,Unemployed,3,3,3,1,3,1,1,1,2,18,High,7.12,1.76,7.86,Somewhat Regular,Low,2.73,1.26,High,No
+P0930,35,Female,Employed,2,0,0,2,1,3,1,0,2,11,Moderate,5.4,2.08,8.66,Irregular,Low,1.76,2.38,Moderate,Yes
+P0931,32,Male,Unemployed,2,2,0,1,1,1,0,1,3,11,Moderate,7.27,0.65,6.5,Somewhat Regular,Moderate,0.98,2.39,Moderate,No
+P0932,19,Other,Student,0,3,2,3,0,2,0,3,2,15,High,7.51,2.54,5.87,Very Irregular,Moderate,3.35,3.65,Moderate,Yes
+P0933,36,Female,Employed,0,3,3,2,3,2,0,0,0,13,Moderate,7.02,1.19,6.5,Somewhat Regular,Low,1.1,4.36,Moderate,Yes
+P0934,29,Female,Unemployed,3,2,3,0,0,0,3,1,1,13,Moderate,4.28,2.56,8.44,Very Irregular,Moderate,1.68,2.57,Low,Yes
+P0935,38,Other,Unemployed,0,1,2,0,0,0,1,3,0,7,Moderate,8.15,0.76,7.33,Very Irregular,Moderate,1.72,3.05,Low,No
+P0936,23,Male,Employed,1,1,2,3,0,3,1,0,0,11,Moderate,8.78,2.26,5.24,Somewhat Regular,High,2.09,2.47,Moderate,No
+P0937,29,Other,Unemployed,1,1,2,1,3,0,2,0,2,12,Moderate,8.3,0.68,5.11,Irregular,Moderate,3.24,-0.71,Low,Yes
+P0938,22,Male,Student,3,2,0,0,1,0,1,1,1,9,Moderate,6.47,2.43,5.85,Irregular,Low,2.18,1.22,High,Not Sure
+P0939,23,Female,Employed,3,3,2,1,2,2,2,1,2,18,High,5.48,0.75,6.58,Very Irregular,Low,4.28,3.67,Moderate,Yes
+P0940,20,Male,Student,2,1,0,1,2,2,3,2,2,15,High,7.56,0.99,6.89,Very Regular,Low,2.51,-0.54,Very Low,No
+P0941,35,Female,Student,2,3,3,1,0,3,1,1,0,14,Moderate,6.52,2.64,5.86,Very Irregular,High,2.39,0.87,Very Low,Yes
+P0942,31,Male,Student,3,1,0,2,2,1,1,0,2,12,Moderate,5.09,2.53,6.32,Very Regular,Moderate,3.7,2.01,Low,No
+P0943,36,Female,Employed,0,1,1,3,3,2,2,1,1,14,Moderate,2.87,1.71,7.53,Very Irregular,Moderate,3.23,2.65,High,Not Sure
+P0944,34,Male,Employed,1,3,3,2,2,3,1,1,3,19,High,4.32,1.35,5.74,Very Regular,Low,2.08,2.46,Very Low,No
+P0945,35,Female,Student,2,1,0,3,1,3,3,1,1,15,High,5.19,2.41,5.92,Very Irregular,Low,3.91,4.0,Low,No
+P0946,23,Female,Student,3,3,3,2,3,2,2,3,3,24,High,4.39,2.82,4.91,Very Regular,High,2.47,2.15,Low,No
+P0947,19,Female,Student,1,2,1,3,3,3,0,0,0,13,Moderate,4.64,1.64,6.81,Very Regular,Low,4.66,2.12,High,Not Sure
+P0948,21,Male,Unemployed,0,0,3,2,3,0,0,0,2,10,Moderate,8.2,1.29,5.22,Somewhat Regular,Moderate,1.89,2.91,High,Not Sure
+P0949,35,Female,Employed,2,3,3,1,1,2,3,1,3,19,High,8.33,1.16,4.36,Somewhat Regular,High,3.86,3.0,Very Low,Not Sure
+P0950,27,Other,Unemployed,0,1,2,2,3,0,3,2,2,15,High,5.8,2.27,5.57,Very Regular,Moderate,1.42,1.96,High,Not Sure
+P0951,38,Female,Student,1,3,3,1,3,3,0,1,0,15,High,4.59,2.62,5.11,Irregular,Low,1.48,1.85,Low,Yes
+P0952,20,Male,Unemployed,1,2,2,2,2,3,1,3,3,19,High,7.14,3.24,5.28,Very Irregular,Moderate,4.09,2.63,Very Low,Yes
+P0953,35,Female,Unemployed,0,2,0,3,1,2,2,1,1,12,Moderate,5.81,1.4,8.24,Very Regular,Moderate,3.5,1.66,Low,Yes
+P0954,39,Male,Unemployed,2,2,0,3,3,3,1,3,1,18,High,4.94,1.95,6.23,Very Irregular,High,5.21,1.0,Low,No
+P0955,23,Male,Student,1,0,0,3,3,0,1,1,2,11,Moderate,7.82,2.57,7.5,Somewhat Regular,Moderate,2.9,3.14,Very Low,Not Sure
+P0956,25,Other,Employed,2,2,2,0,2,2,1,2,2,15,High,6.41,1.82,7.08,Very Regular,Low,1.22,2.28,Moderate,Not Sure
+P0957,28,Male,Unemployed,2,1,2,2,2,1,2,1,0,13,Moderate,6.0,1.4,6.09,Very Regular,Low,3.6,3.28,High,Yes
+P0958,37,Female,Unemployed,0,3,3,1,0,2,2,1,2,14,Moderate,6.24,-0.64,5.16,Irregular,Moderate,1.56,2.42,Low,Yes
+P0959,18,Other,Employed,1,2,2,3,2,0,2,2,0,14,Moderate,5.19,1.57,6.04,Irregular,High,2.25,2.71,Low,No
+P0960,29,Male,Employed,2,1,2,1,3,3,2,0,3,17,High,10.06,1.8,6.84,Very Irregular,High,2.75,0.38,Moderate,Not Sure
+P0961,39,Other,Employed,2,3,3,0,1,0,0,3,0,12,Moderate,4.46,3.35,4.85,Somewhat Regular,High,2.11,1.26,Low,Not Sure
+P0962,24,Female,Employed,0,3,1,0,1,2,0,2,1,10,Moderate,5.59,0.69,5.77,Very Irregular,Moderate,0.45,2.75,Low,Yes
+P0963,29,Other,Student,2,1,1,1,1,2,3,1,3,15,High,8.97,2.01,6.05,Very Irregular,Moderate,1.57,-0.14,Moderate,Not Sure
+P0964,39,Female,Employed,3,0,3,2,1,2,3,2,3,19,High,7.09,2.83,6.91,Very Regular,High,2.73,4.17,High,Not Sure
+P0965,32,Male,Student,2,2,2,3,3,1,3,0,1,17,High,7.07,1.79,5.3,Irregular,High,1.15,2.15,Low,No
+P0966,35,Other,Student,0,3,3,2,1,0,3,2,0,14,Moderate,6.49,0.72,6.01,Very Irregular,Low,2.32,3.43,High,Not Sure
+P0967,33,Male,Unemployed,3,0,0,3,3,0,2,3,2,16,High,6.15,1.88,6.5,Irregular,Moderate,3.62,3.05,High,Not Sure
+P0968,31,Female,Student,1,0,1,1,3,2,2,1,1,12,Moderate,6.6,1.47,6.99,Very Regular,High,0.97,1.75,Very Low,Yes
+P0969,27,Male,Student,2,1,1,2,3,0,1,3,1,14,Moderate,3.23,1.36,6.36,Very Regular,Low,2.42,1.04,Very Low,No
+P0970,33,Male,Student,3,2,0,2,2,0,1,0,3,13,Moderate,3.58,0.72,7.16,Very Regular,High,3.59,1.66,High,Not Sure
+P0971,27,Female,Unemployed,3,1,1,1,2,0,0,2,3,13,Moderate,4.49,3.11,5.1,Irregular,Low,3.18,2.89,Moderate,Yes
+P0972,27,Other,Unemployed,3,0,2,2,1,3,0,0,2,13,Moderate,3.41,0.82,5.74,Very Regular,Low,3.65,4.1,Low,Not Sure
+P0973,25,Female,Student,3,3,2,2,3,1,1,1,2,18,High,8.66,3.19,5.7,Very Irregular,High,2.43,1.46,Very Low,No
+P0974,23,Other,Unemployed,2,3,0,2,0,1,3,2,1,14,Moderate,6.86,1.26,4.95,Very Irregular,Moderate,4.12,2.79,Very Low,Not Sure
+P0975,31,Female,Unemployed,0,2,1,2,3,0,0,2,3,13,Moderate,4.78,1.39,7.32,Very Regular,High,3.92,1.73,Very Low,No
+P0976,38,Male,Student,1,3,1,2,2,0,0,1,1,11,Moderate,3.76,1.72,6.58,Very Regular,Low,0.95,0.24,Low,Not Sure
+P0977,30,Female,Student,3,2,1,0,2,2,3,1,2,16,High,5.27,2.0,5.04,Somewhat Regular,High,3.27,5.45,Low,Not Sure
+P0978,28,Other,Student,1,1,3,2,1,2,1,0,0,11,Moderate,7.76,1.33,5.23,Very Irregular,High,3.12,1.4,Very Low,Not Sure
+P0979,28,Other,Employed,0,0,2,1,1,1,1,0,2,8,Moderate,6.63,1.64,6.31,Very Irregular,High,3.08,2.73,High,Yes
+P0980,22,Male,Student,1,2,3,0,2,3,2,2,1,16,High,6.21,2.22,6.5,Very Irregular,High,1.74,2.92,Moderate,Not Sure
+P0981,39,Male,Unemployed,3,1,2,2,0,1,3,3,2,17,High,5.1,1.07,7.36,Very Irregular,Moderate,3.25,1.56,Moderate,Not Sure
+P0982,36,Female,Employed,1,3,3,1,0,3,3,1,1,16,High,7.91,1.68,6.63,Very Irregular,High,4.56,1.79,High,Not Sure
+P0983,39,Female,Unemployed,0,0,1,3,0,2,1,2,0,9,Moderate,5.86,1.23,6.93,Somewhat Regular,High,1.6,1.62,Low,No
+P0984,21,Other,Unemployed,1,3,1,2,3,1,3,0,1,15,High,4.37,2.88,6.13,Irregular,Moderate,1.86,3.29,High,No
+P0985,25,Female,Student,1,2,3,0,1,2,0,3,2,14,Moderate,6.92,0.97,6.81,Very Regular,Moderate,3.08,1.21,Very Low,Not Sure
+P0986,34,Male,Employed,1,1,1,1,2,0,1,3,0,10,Moderate,6.57,1.32,7.09,Very Regular,Moderate,-0.72,2.25,Low,Yes
+P0987,19,Female,Student,2,1,2,2,2,3,1,1,3,17,High,9.42,1.92,6.12,Irregular,High,4.28,2.19,Low,Yes
+P0988,26,Male,Employed,0,0,1,0,0,1,0,3,3,8,Moderate,4.32,2.77,5.53,Irregular,Low,2.25,1.84,Low,No
+P0989,27,Female,Unemployed,1,3,2,2,1,2,2,2,2,17,High,6.88,1.17,5.54,Somewhat Regular,Low,2.44,2.74,Moderate,No
+P0990,27,Male,Unemployed,1,0,1,3,3,3,0,1,1,13,Moderate,4.18,1.93,7.0,Very Irregular,High,2.34,3.12,Low,Not Sure
+P0991,34,Male,Unemployed,1,1,1,2,1,0,0,3,0,9,Moderate,5.87,1.53,7.72,Irregular,Moderate,4.04,1.27,Low,No
+P0992,32,Other,Unemployed,1,2,2,3,0,0,3,0,2,13,Moderate,7.5,2.47,6.22,Very Regular,High,3.82,1.88,Moderate,Yes
+P0993,22,Other,Unemployed,1,0,2,1,0,2,0,3,1,10,Moderate,5.68,0.72,4.8,Very Irregular,Low,1.77,1.81,Very Low,No
+P0994,29,Female,Employed,0,2,2,0,1,0,1,2,3,11,Moderate,7.1,1.15,6.68,Very Irregular,Low,4.14,3.74,Low,Not Sure
+P0995,21,Other,Unemployed,0,0,1,3,3,3,0,2,0,12,Moderate,8.2,1.48,4.51,Very Regular,High,6.14,1.41,High,Yes
+P0996,36,Female,Unemployed,0,1,2,2,0,1,3,3,2,14,Moderate,7.85,1.55,7.2,Very Regular,Moderate,3.12,1.07,Low,No
+P0997,24,Other,Unemployed,0,0,3,3,1,3,3,3,3,19,High,7.79,1.72,5.69,Somewhat Regular,Low,3.46,2.66,Very Low,Not Sure
+P0998,26,Other,Employed,3,1,2,0,0,2,0,2,1,11,Moderate,5.05,1.92,6.08,Very Irregular,High,1.65,2.62,Very Low,Yes
+P0999,30,Female,Employed,0,2,3,1,0,3,0,2,3,14,Moderate,8.03,0.03,5.1,Very Irregular,Low,2.97,0.5,Low,No
+P1000,27,Male,Employed,1,0,3,0,1,0,0,2,0,7,Moderate,4.12,2.45,6.25,Very Regular,High,4.39,3.84,High,No
